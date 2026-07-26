@@ -1,7 +1,7 @@
 import requests
 import os
 import csv
-from datetime import date
+from datetime import datetime, timezone
 
 
 url = "https://api.open-meteo.com/v1/forecast"
@@ -36,7 +36,7 @@ cities = [
     {"name": "Iqaluit", "province": "NU", "lat": 63.75, "lon": -68.51}
 ]
 
-today = date.today().isoformat()
+issued_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
 
 file_exists = os.path.isfile("forecasts.csv")
 
@@ -44,8 +44,8 @@ with open("forecasts.csv", "a", newline="") as f:
     writer = csv.writer(f)
 
     if not file_exists:
-        writer.writerow(["issued_date", "city", "province", "target_date", "horizon", "temp_max", "precip_prob"])
-        
+        writer.writerow(["issued_at", "city", "province", "target_date", "horizon", "temp_max", "precip_prob"])
+
     for city in cities:
         params = {
             "latitude": city["lat"],
@@ -63,7 +63,7 @@ with open("forecasts.csv", "a", newline="") as f:
 
         for i in range(len(dates)):
             writer.writerow([
-                today,
+                issued_at,
                 city["name"],
                 city["province"],
                 dates[i],
