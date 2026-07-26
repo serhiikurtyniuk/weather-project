@@ -1,9 +1,8 @@
 name: Daily Weather Collector
 
-
 permissions:
   contents: write
-  
+
 on:
   schedule:
     - cron: "0 12 * * *"
@@ -24,13 +23,17 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run collector
+      - name: Run forecast collector
         run: python collector.py
+
+      - name: Run observation collector
+        run: python observations.py
 
       - name: Commit and push new data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add forecasts.csv
-          git commit -m "Daily forecast collection" || echo "No changes to commit"
+          git add forecasts.csv observations.csv
+          git commit -m "Daily data collection" || echo "No changes to commit"
+          git pull --rebase
           git push
