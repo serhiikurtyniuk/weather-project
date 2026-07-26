@@ -1,4 +1,5 @@
 import requests
+import os
 import csv
 from datetime import date, timedelta
 
@@ -12,9 +13,14 @@ cities = [
 
 yesterday = (date.today() - timedelta(days=1)).isoformat()
 
+file_exists = os.path.isfile("observations.csv")
+
 with open("observations.csv","a",newline="")as f:
     writer = csv.writer(f)
 
+    if not file_exists:
+        writer.writerow(["date", "city", "province", "temp_max_actual", "precip_actual"])
+        
     for city in cities:
         params = {
             "latitude": city["lat"],
