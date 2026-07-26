@@ -1,6 +1,7 @@
 import requests
 import os
 import csv
+import time
 from datetime import datetime, timezone
 
 
@@ -54,22 +55,26 @@ with open("forecasts.csv", "a", newline="") as f:
             "timezone": "auto"
         }
 
-        response = requests.get(url, params=params)
-        data = response.json()
+        data = None
+        for attempt in range(3):
+            try:
+                response = requests.get(url, params=params, timeout=30)
+                response.raise_for_status()
+                data = response.json()
+                break
+            except requests.exceptions.RequestException as e:
+                print(f"{city['name']} attempt {attempt + 1} failed: {e}")
+                time.sleep(5)
+
+        if data is None:
+            print(f"FAILED after 3 attempts: {city['name']}")
+            continue
 
         dates = data["daily"]["time"]
         highs = data["daily"]["temperature_2m_max"]
         rain_chance = data["daily"]["precipitation_probability_max"]
 
         for i in range(len(dates)):
-            writer.writerow([
-                issued_at,
-                city["name"],
-                city["province"],
-                dates[i],
-                i,
-                highs[i],
-                rain_chance[i]
-            ])
+            writer.writerow([issued_at, city["name"], city["province"], dates[i], i, highs[i], rain_chance[i]])
 
 print("done")
