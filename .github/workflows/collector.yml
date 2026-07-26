@@ -1,5 +1,9 @@
 name: Daily Weather Collector
 
+
+permissions:
+  contents: write
+  
 on:
   schedule:
     - cron: "0 12 * * *"
