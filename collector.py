@@ -52,7 +52,8 @@ with open("forecasts.csv", "a", newline="") as f:
             "latitude": city["lat"],
             "longitude": city["lon"],
             "daily": "temperature_2m_max,precipitation_probability_max",
-            "timezone": "auto"
+            "timezone": "auto",
+            "forecast_days": 14
         }
 
         data = None
