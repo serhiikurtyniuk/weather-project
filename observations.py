@@ -57,7 +57,7 @@ with open("observations.csv", "a", newline="") as f:
         }
 
         data = None
-        for attempt in range(3):
+        for attempt in range(10):
             try:
                 response = requests.get(url, params=params, timeout=30)
                 response.raise_for_status()
@@ -65,10 +65,10 @@ with open("observations.csv", "a", newline="") as f:
                 break
             except requests.exceptions.RequestException as e:
                 print(f"{city['name']} attempt {attempt + 1} failed: {e}")
-                time.sleep(5)
+                time.sleep(2)
 
         if data is None:
-            print(f"FAILED after 3 attempts: {city['name']}")
+            print(f"FAILED after 10 attempts: {city['name']}")
             continue
 
         actual_high = data["daily"]["temperature_2m_max"][0]
