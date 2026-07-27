@@ -2,6 +2,7 @@ import requests
 import os
 import csv
 import time
+import sys
 from datetime import date, timedelta
 
 url = "https://archive-api.open-meteo.com/v1/archive"
@@ -40,6 +41,8 @@ yesterday = (date.today() - timedelta(days=1)).isoformat()
 
 file_exists = os.path.isfile("observations.csv")
 
+failed_cities = []
+
 with open("observations.csv", "a", newline="") as f:
     writer = csv.writer(f)
 
@@ -57,7 +60,7 @@ with open("observations.csv", "a", newline="") as f:
         }
 
         data = None
-        for attempt in range(10):
+        for attempt in range(20):
             try:
                 response = requests.get(url, params=params, timeout=30)
                 response.raise_for_status()
@@ -68,7 +71,8 @@ with open("observations.csv", "a", newline="") as f:
                 time.sleep(2)
 
         if data is None:
-            print(f"FAILED after 10 attempts: {city['name']}")
+            print(f"FAILED after 20 attempts: {city['name']}")
+            failed_cities.append(city["name"])
             continue
 
         actual_high = data["daily"]["temperature_2m_max"][0]
@@ -77,3 +81,7 @@ with open("observations.csv", "a", newline="") as f:
         writer.writerow([yesterday, city["name"], city["province"], actual_high, actual_precip])
 
 print("done")
+
+if failed_cities:
+    print(f"WARNING: {len(failed_cities)} cities failed permanently: {', '.join(failed_cities)}")
+    sys.exit(1)

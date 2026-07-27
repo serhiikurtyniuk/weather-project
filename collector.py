@@ -2,6 +2,7 @@ import requests
 import os
 import csv
 import time
+import sys
 from datetime import datetime, timezone
 
 
@@ -41,6 +42,8 @@ issued_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
 
 file_exists = os.path.isfile("forecasts.csv")
 
+failed_cities = []
+
 with open("forecasts.csv", "a", newline="") as f:
     writer = csv.writer(f)
 
@@ -57,7 +60,7 @@ with open("forecasts.csv", "a", newline="") as f:
         }
 
         data = None
-        for attempt in range(10):
+        for attempt in range(20):
             try:
                 response = requests.get(url, params=params, timeout=30)
                 response.raise_for_status()
@@ -68,7 +71,8 @@ with open("forecasts.csv", "a", newline="") as f:
                 time.sleep(2)
 
         if data is None:
-            print(f"FAILED after 10 attempts: {city['name']}")
+            print(f"FAILED after 20 attempts: {city['name']}")
+            failed_cities.append(city["name"])
             continue
 
         dates = data["daily"]["time"]
@@ -79,3 +83,7 @@ with open("forecasts.csv", "a", newline="") as f:
             writer.writerow([issued_at, city["name"], city["province"], dates[i], i, highs[i], rain_chance[i]])
 
 print("done")
+
+if failed_cities:
+    print(f"WARNING: {len(failed_cities)} cities failed permanently: {', '.join(failed_cities)}")
+    sys.exit(1)
