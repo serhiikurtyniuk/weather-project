@@ -82,6 +82,31 @@ def daily_max_precip(hourly_forecasts, tz):
 
     return daily_max
 
+def daily_max_wind(hourly_forecasts, tz):
+    daily_max = {}
+
+    for hour in hourly_forecasts:
+        utc_time = datetime.fromisoformat(hour["timestamp"].replace("Z", "+00:00"))
+        local_date = utc_time.astimezone(tz).date()
+
+        wind_value = hour.get("wind", {}).get("speed", {}).get("value", {}).get("en")
+        if wind_value is None:
+            continue
+
+        if isinstance(wind_value, str):
+            if wind_value.strip().lower() == "calm":
+                wind_value = 0
+            else:
+                try:
+                    wind_value = float(wind_value)
+                except ValueError:
+                    continue
+
+        if local_date not in daily_max or wind_value > daily_max[local_date]:
+            daily_max[local_date] = wind_value
+
+    return daily_max
+
 
 issued_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
 
@@ -94,7 +119,7 @@ with open("ec_forecasts.csv", "a", newline="") as f:
 
     if not file_exists:
         writer.writerow(["issued_at", "city", "province", "target_date", "horizon",
-                         "temp_max", "temp_min", "precip_prob"])
+                         "temp_max", "temp_min", "precip_prob", "wind_speed_max"])
 
     for city in ec_cities:
         url = f"{url_base}/{city['ec_id']}"
@@ -127,6 +152,7 @@ with open("ec_forecasts.csv", "a", newline="") as f:
 
         dated_periods = resolve_dates(forecasts, local_today)
         precip_by_date = daily_max_precip(hourly, tz)
+        wind_by_date = daily_max_wind(hourly, tz)
 
         # Collapse day/night periods into one row per date
         by_date = {}
@@ -146,6 +172,7 @@ with open("ec_forecasts.csv", "a", newline="") as f:
         for target_date in sorted(by_date):
             horizon = (target_date - local_today).days
             precip = precip_by_date.get(target_date, "")
+            wind = wind_by_date.get(target_date, "")
 
             writer.writerow([
                 issued_at,
@@ -155,7 +182,8 @@ with open("ec_forecasts.csv", "a", newline="") as f:
                 horizon,
                 by_date[target_date]["high"],
                 by_date[target_date]["low"],
-                precip
+                precip,
+                wind
             ])
 
         time.sleep(1)

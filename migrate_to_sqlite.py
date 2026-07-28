@@ -4,8 +4,9 @@ import csv
 conn = sqlite3.connect("weather.db")
 cursor = conn.cursor()
 
+cursor.execute("DROP TABLE IF EXISTS forecasts")
 cursor.execute("""
-    CREATE TABLE IF NOT EXISTS forecasts (
+    CREATE TABLE forecasts (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         source TEXT,
         issued_at TEXT,
@@ -15,24 +16,28 @@ cursor.execute("""
         horizon INTEGER,
         temp_max REAL,
         temp_min REAL,
-        precip_prob REAL
+        precip_prob REAL,
+        wind_speed_max REAL
     )
 """)
 
+cursor.execute("DROP TABLE IF EXISTS observations")
 cursor.execute("""
-    CREATE TABLE IF NOT EXISTS observations (
+    CREATE TABLE observations (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         source TEXT,
         date TEXT,
         city TEXT,
         province TEXT,
         temp_max_actual REAL,
-        precip_actual REAL
+        precip_actual REAL,
+        wind_speed_actual REAL
     )
 """)
 
 conn.commit()
 print("Tables created.")
+
 
 def load_forecasts_csv(filepath, source_name):
     with open(filepath, newline="") as f:
@@ -48,12 +53,13 @@ def load_forecasts_csv(filepath, source_name):
                 int(row["horizon"]),
                 float(row["temp_max"]) if row["temp_max"] else None,
                 float(row.get("temp_min")) if row.get("temp_min") else None,
-                float(row["precip_prob"]) if row["precip_prob"] else None
+                float(row["precip_prob"]) if row["precip_prob"] else None,
+                float(row["wind_speed_max"]) if row.get("wind_speed_max") else None
             ))
 
     cursor.executemany("""
-        INSERT INTO forecasts (source, issued_at, city, province, target_date, horizon, temp_max, temp_min, precip_prob)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        INSERT INTO forecasts (source, issued_at, city, province, target_date, horizon, temp_max, temp_min, precip_prob, wind_speed_max)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     """, rows)
     conn.commit()
     print(f"Loaded {len(rows)} rows from {filepath} as source '{source_name}'")
@@ -70,21 +76,17 @@ def load_observations_csv(filepath, source_name):
                 row["city"],
                 row["province"],
                 float(row["temp_max_actual"]) if row["temp_max_actual"] else None,
-                float(row["precip_actual"]) if row["precip_actual"] else None
+                float(row["precip_actual"]) if row["precip_actual"] else None,
+                float(row["wind_speed_actual"]) if row.get("wind_speed_actual") else None
             ))
 
     cursor.executemany("""
-        INSERT INTO observations (source, date, city, province, temp_max_actual, precip_actual)
-        VALUES (?, ?, ?, ?, ?, ?)
+        INSERT INTO observations (source, date, city, province, temp_max_actual, precip_actual, wind_speed_actual)
+        VALUES (?, ?, ?, ?, ?, ?, ?)
     """, rows)
     conn.commit()
     print(f"Loaded {len(rows)} rows from {filepath} as source '{source_name}'")
 
-
-cursor.execute("DELETE FROM forecasts")
-cursor.execute("DELETE FROM observations")
-conn.commit()
-print("Cleared existing data.")
 
 load_forecasts_csv("forecasts.csv", "open-meteo")
 load_forecasts_csv("ec_forecasts.csv", "ec")

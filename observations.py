@@ -47,7 +47,7 @@ with open("observations.csv", "a", newline="") as f:
     writer = csv.writer(f)
 
     if not file_exists:
-        writer.writerow(["date", "city", "province", "temp_max_actual", "precip_actual"])
+        writer.writerow(["date", "city", "province", "temp_max_actual", "precip_actual", "wind_speed_actual"])
 
     for city in cities:
         params = {
@@ -55,7 +55,7 @@ with open("observations.csv", "a", newline="") as f:
             "longitude": city["lon"],
             "start_date": yesterday,
             "end_date": yesterday,
-            "daily": "temperature_2m_max,precipitation_sum",
+            "daily": "temperature_2m_max,precipitation_sum,wind_speed_10m_max",
             "timezone": "auto"
         }
 
@@ -77,8 +77,9 @@ with open("observations.csv", "a", newline="") as f:
 
         actual_high = data["daily"]["temperature_2m_max"][0]
         actual_precip = data["daily"]["precipitation_sum"][0]
+        actual_wind = data["daily"]["wind_speed_10m_max"][0]
 
-        writer.writerow([yesterday, city["name"], city["province"], actual_high, actual_precip])
+        writer.writerow([yesterday, city["name"], city["province"], actual_high, actual_precip, actual_wind])
 
 print("done")
 
