@@ -30,6 +30,7 @@ cursor.execute("""
         city TEXT,
         province TEXT,
         temp_max_actual REAL,
+        temp_min_actual REAL,
         precip_actual REAL,
         wind_speed_actual REAL
     )
@@ -52,7 +53,7 @@ def load_forecasts_csv(filepath, source_name):
                 row["target_date"],
                 int(row["horizon"]),
                 float(row["temp_max"]) if row["temp_max"] else None,
-                float(row.get("temp_min")) if row.get("temp_min") else None,
+                float(row["temp_min"]) if row.get("temp_min") else None,
                 float(row["precip_prob"]) if row["precip_prob"] else None,
                 float(row["wind_speed_max"]) if row.get("wind_speed_max") else None
             ))
@@ -76,13 +77,14 @@ def load_observations_csv(filepath, source_name):
                 row["city"],
                 row["province"],
                 float(row["temp_max_actual"]) if row["temp_max_actual"] else None,
+                float(row["temp_min_actual"]) if row.get("temp_min_actual") else None,
                 float(row["precip_actual"]) if row["precip_actual"] else None,
                 float(row["wind_speed_actual"]) if row.get("wind_speed_actual") else None
             ))
 
     cursor.executemany("""
-        INSERT INTO observations (source, date, city, province, temp_max_actual, precip_actual, wind_speed_actual)
-        VALUES (?, ?, ?, ?, ?, ?, ?)
+        INSERT INTO observations (source, date, city, province, temp_max_actual, temp_min_actual, precip_actual, wind_speed_actual)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
     """, rows)
     conn.commit()
     print(f"Loaded {len(rows)} rows from {filepath} as source '{source_name}'")

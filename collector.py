@@ -48,13 +48,13 @@ with open("forecasts.csv", "a", newline="") as f:
     writer = csv.writer(f)
 
     if not file_exists:
-        writer.writerow(["issued_at", "city", "province", "target_date", "horizon", "temp_max", "precip_prob", "wind_speed_max"])
+        writer.writerow(["issued_at", "city", "province", "target_date", "horizon", "temp_max", "temp_min", "precip_prob", "wind_speed_max"])
 
     for city in cities:
         params = {
             "latitude": city["lat"],
             "longitude": city["lon"],
-            "daily": "temperature_2m_max,precipitation_probability_max,wind_speed_10m_max",
+            "daily": "temperature_2m_max,temperature_2m_min,precipitation_probability_max,wind_speed_10m_max",
             "timezone": "auto",
             "forecast_days": 14
         }
@@ -77,11 +77,12 @@ with open("forecasts.csv", "a", newline="") as f:
 
         dates = data["daily"]["time"]
         highs = data["daily"]["temperature_2m_max"]
+        lows = data["daily"]["temperature_2m_min"]
         rain_chance = data["daily"]["precipitation_probability_max"]
         wind_speed = data["daily"]["wind_speed_10m_max"]
 
         for i in range(len(dates)):
-            writer.writerow([issued_at, city["name"], city["province"], dates[i], i, highs[i], rain_chance[i], wind_speed[i]])
+            writer.writerow([issued_at, city["name"], city["province"], dates[i], i, highs[i], lows[i], rain_chance[i], wind_speed[i]])
 
 print("done")
 
