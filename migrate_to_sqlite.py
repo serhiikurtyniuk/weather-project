@@ -53,7 +53,7 @@ def load_forecasts_csv(filepath, source_name):
                 row["target_date"],
                 int(row["horizon"]),
                 float(row["temp_max"]) if row["temp_max"] else None,
-                float(row["temp_min"]) if row.get("temp_min") else None,
+                float(row.get("temp_min")) if row.get("temp_min") else None,
                 float(row["precip_prob"]) if row["precip_prob"] else None,
                 float(row["wind_speed_max"]) if row.get("wind_speed_max") else None
             ))
@@ -93,6 +93,7 @@ def load_observations_csv(filepath, source_name):
 load_forecasts_csv("forecasts.csv", "open-meteo")
 load_forecasts_csv("ec_forecasts.csv", "ec")
 load_observations_csv("observations.csv", "open-meteo")
+load_observations_csv("ec_observations.csv", "ec")
 
 
 cursor.execute("""
@@ -100,7 +101,16 @@ cursor.execute("""
     FROM forecasts
     GROUP BY source
 """)
+print("\nForecasts:")
+for row in cursor.fetchall():
+    print(row)
 
+cursor.execute("""
+    SELECT source, COUNT(*) as row_count
+    FROM observations
+    GROUP BY source
+""")
+print("\nObservations:")
 for row in cursor.fetchall():
     print(row)
 
