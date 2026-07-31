@@ -38,9 +38,12 @@ ec_obs_cities = [
 ]
 
 
-def fetch_with_fallback(station_id, max_days_back=6):
+def fetch_with_fallback(station_id, city_name, existing_keys, max_days_back=6):
     for days_back in range(2, 2 + max_days_back):
         check_date = (date.today() - timedelta(days=days_back)).isoformat()
+
+        if (check_date, city_name) in existing_keys:
+            return None, None, "up_to_date"
 
         params = {
             "f": "json",
@@ -64,12 +67,19 @@ def fetch_with_fallback(station_id, max_days_back=6):
                 time.sleep(2)
 
         if props is not None and props.get("MAX_TEMPERATURE") is not None:
-            return check_date, props
+            return check_date, props, "new"
 
-    return None, None
+    return None, None, "no_data"
 
 
 file_exists = os.path.isfile("ec_observations.csv")
+
+existing_keys = set()
+if file_exists:
+    with open("ec_observations.csv", newline="") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            existing_keys.add((row["date"], row["city"]))
 
 failed_cities = []
 
@@ -80,7 +90,11 @@ with open("ec_observations.csv", "a", newline="") as f:
         writer.writerow(["date", "city", "province", "temp_max_actual", "temp_min_actual", "precip_actual"])
 
     for city in ec_obs_cities:
-        found_date, props = fetch_with_fallback(city["station_id"])
+        found_date, props, status = fetch_with_fallback(city["station_id"], city["name"], existing_keys)
+
+        if status == "up_to_date":
+            print(f"{city['name']}: already up to date")
+            continue
 
         if props is None:
             print(f"FAILED: {city['name']} (no valid data within lookback window)")

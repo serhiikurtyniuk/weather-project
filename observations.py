@@ -41,6 +41,13 @@ yesterday = (date.today() - timedelta(days=1)).isoformat()
 
 file_exists = os.path.isfile("observations.csv")
 
+existing_keys = set()
+if file_exists:
+    with open("observations.csv", newline="") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            existing_keys.add((row["date"], row["city"]))
+
 failed_cities = []
 
 with open("observations.csv", "a", newline="") as f:
@@ -50,6 +57,10 @@ with open("observations.csv", "a", newline="") as f:
         writer.writerow(["date", "city", "province", "temp_max_actual", "temp_min_actual", "precip_actual", "wind_speed_actual"])
 
     for city in cities:
+        if (yesterday, city["name"]) in existing_keys:
+            print(f"{city['name']}: already have {yesterday}, skipping")
+            continue
+
         params = {
             "latitude": city["lat"],
             "longitude": city["lon"],
