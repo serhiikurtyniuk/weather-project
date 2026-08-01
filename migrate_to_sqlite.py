@@ -40,6 +40,20 @@ conn.commit()
 print("Tables created.")
 
 
+def dedupe(rows, key_indices):
+    seen = set()
+    result = []
+    dropped = 0
+    for r in rows:
+        key = tuple(r[i] for i in key_indices)
+        if key not in seen:
+            seen.add(key)
+            result.append(r)
+        else:
+            dropped += 1
+    return result, dropped
+
+
 def load_forecasts_csv(filepath, source_name):
     with open(filepath, newline="") as f:
         reader = csv.DictReader(f)
@@ -57,6 +71,11 @@ def load_forecasts_csv(filepath, source_name):
                 float(row["precip_prob"]) if row["precip_prob"] else None,
                 float(row["wind_speed_max"]) if row.get("wind_speed_max") else None
             ))
+
+    # dedupe on (source, issued_at, city, province, target_date, horizon)
+    rows, dropped = dedupe(rows, key_indices=[0, 1, 2, 3, 4, 5])
+    if dropped:
+        print(f"  Dropped {dropped} duplicate row(s) from {filepath}")
 
     cursor.executemany("""
         INSERT INTO forecasts (source, issued_at, city, province, target_date, horizon, temp_max, temp_min, precip_prob, wind_speed_max)
@@ -81,6 +100,11 @@ def load_observations_csv(filepath, source_name):
                 float(row["precip_actual"]) if row["precip_actual"] else None,
                 float(row["wind_speed_actual"]) if row.get("wind_speed_actual") else None
             ))
+
+    # dedupe on (source, date, city, province)
+    rows, dropped = dedupe(rows, key_indices=[0, 1, 2, 3])
+    if dropped:
+        print(f"  Dropped {dropped} duplicate row(s) from {filepath}")
 
     cursor.executemany("""
         INSERT INTO observations (source, date, city, province, temp_max_actual, temp_min_actual, precip_actual, wind_speed_actual)
