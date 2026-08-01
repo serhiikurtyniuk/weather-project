@@ -1,0 +1,1674 @@
+fc|Winnipeg|2024-01
+fc|Winnipeg|2024-02
+fc|Winnipeg|2024-03
+fc|Winnipeg|2024-04
+fc|Winnipeg|2024-05
+fc|Winnipeg|2024-06
+fc|Winnipeg|2024-07
+fc|Winnipeg|2024-08
+fc|Winnipeg|2024-09
+fc|Winnipeg|2024-10
+fc|Winnipeg|2024-11
+fc|Winnipeg|2024-12
+fc|Winnipeg|2025-01
+fc|Winnipeg|2025-02
+fc|Winnipeg|2025-03
+fc|Winnipeg|2025-04
+fc|Winnipeg|2025-05
+fc|Winnipeg|2025-06
+fc|Winnipeg|2025-07
+fc|Winnipeg|2025-08
+fc|Winnipeg|2025-09
+fc|Winnipeg|2025-10
+fc|Winnipeg|2025-11
+fc|Winnipeg|2025-12
+fc|Winnipeg|2026-01
+fc|Winnipeg|2026-02
+fc|Winnipeg|2026-03
+fc|Winnipeg|2026-04
+fc|Winnipeg|2026-05
+fc|Winnipeg|2026-06
+fc|Winnipeg|2026-07
+fc|Brandon|2024-01
+fc|Brandon|2024-02
+fc|Brandon|2024-03
+fc|Brandon|2024-04
+fc|Brandon|2024-05
+fc|Brandon|2024-06
+fc|Brandon|2024-07
+fc|Brandon|2024-08
+fc|Brandon|2024-09
+fc|Brandon|2024-10
+fc|Brandon|2024-11
+fc|Brandon|2024-12
+fc|Brandon|2025-01
+fc|Brandon|2025-02
+fc|Brandon|2025-03
+fc|Brandon|2025-04
+fc|Brandon|2025-05
+fc|Brandon|2025-06
+fc|Brandon|2025-07
+fc|Brandon|2025-08
+fc|Brandon|2025-09
+fc|Brandon|2025-10
+fc|Brandon|2025-11
+fc|Brandon|2025-12
+fc|Brandon|2026-01
+fc|Brandon|2026-02
+fc|Brandon|2026-03
+fc|Brandon|2026-04
+fc|Brandon|2026-05
+fc|Brandon|2026-06
+fc|Brandon|2026-07
+fc|Thompson|2024-01
+fc|Thompson|2024-02
+fc|Thompson|2024-03
+fc|Thompson|2024-04
+fc|Thompson|2024-05
+fc|Thompson|2024-06
+fc|Thompson|2024-07
+fc|Thompson|2024-08
+fc|Thompson|2024-09
+fc|Thompson|2024-10
+fc|Thompson|2024-11
+fc|Thompson|2024-12
+fc|Thompson|2025-01
+fc|Thompson|2025-02
+fc|Thompson|2025-03
+fc|Thompson|2025-04
+fc|Thompson|2025-05
+fc|Thompson|2025-06
+fc|Thompson|2025-07
+fc|Thompson|2025-08
+fc|Thompson|2025-09
+fc|Thompson|2025-10
+fc|Thompson|2025-11
+fc|Thompson|2025-12
+fc|Thompson|2026-01
+fc|Thompson|2026-02
+fc|Thompson|2026-03
+fc|Thompson|2026-04
+fc|Thompson|2026-05
+fc|Thompson|2026-06
+fc|Thompson|2026-07
+fc|Portage la Prairie|2024-01
+fc|Portage la Prairie|2024-02
+fc|Portage la Prairie|2024-03
+fc|Portage la Prairie|2024-04
+fc|Portage la Prairie|2024-05
+fc|Portage la Prairie|2024-06
+fc|Portage la Prairie|2024-07
+fc|Portage la Prairie|2024-08
+fc|Portage la Prairie|2024-09
+fc|Portage la Prairie|2024-10
+fc|Portage la Prairie|2024-11
+fc|Portage la Prairie|2024-12
+fc|Portage la Prairie|2025-01
+fc|Portage la Prairie|2025-02
+fc|Portage la Prairie|2025-03
+fc|Portage la Prairie|2025-04
+fc|Portage la Prairie|2025-05
+fc|Portage la Prairie|2025-06
+fc|Portage la Prairie|2025-07
+fc|Portage la Prairie|2025-08
+fc|Portage la Prairie|2025-09
+fc|Portage la Prairie|2025-10
+fc|Portage la Prairie|2025-11
+fc|Portage la Prairie|2025-12
+fc|Portage la Prairie|2026-01
+fc|Portage la Prairie|2026-02
+fc|Portage la Prairie|2026-03
+fc|Portage la Prairie|2026-04
+fc|Portage la Prairie|2026-05
+fc|Portage la Prairie|2026-06
+fc|Portage la Prairie|2026-07
+fc|Steinbach|2024-01
+fc|Steinbach|2024-02
+fc|Steinbach|2024-03
+fc|Steinbach|2024-04
+fc|Steinbach|2024-05
+fc|Steinbach|2024-06
+fc|Steinbach|2024-07
+fc|Steinbach|2024-08
+fc|Steinbach|2024-09
+fc|Steinbach|2024-10
+fc|Steinbach|2024-11
+fc|Steinbach|2024-12
+fc|Steinbach|2025-01
+fc|Steinbach|2025-02
+fc|Steinbach|2025-03
+fc|Steinbach|2025-04
+fc|Steinbach|2025-05
+fc|Steinbach|2025-06
+fc|Steinbach|2025-07
+fc|Steinbach|2025-08
+fc|Steinbach|2025-09
+fc|Steinbach|2025-10
+fc|Steinbach|2025-11
+fc|Steinbach|2025-12
+fc|Steinbach|2026-01
+fc|Steinbach|2026-02
+fc|Steinbach|2026-03
+fc|Steinbach|2026-04
+fc|Steinbach|2026-05
+fc|Steinbach|2026-06
+fc|Steinbach|2026-07
+fc|Regina|2024-01
+fc|Regina|2024-02
+fc|Regina|2024-03
+fc|Regina|2024-04
+fc|Regina|2024-05
+fc|Regina|2024-06
+fc|Regina|2024-07
+fc|Regina|2024-08
+fc|Regina|2024-09
+fc|Regina|2024-10
+fc|Regina|2024-11
+fc|Regina|2024-12
+fc|Regina|2025-01
+fc|Regina|2025-02
+fc|Regina|2025-03
+fc|Regina|2025-04
+fc|Regina|2025-05
+fc|Regina|2025-06
+fc|Regina|2025-07
+fc|Regina|2025-08
+fc|Regina|2025-09
+fc|Regina|2025-10
+fc|Regina|2025-11
+fc|Regina|2025-12
+fc|Regina|2026-01
+fc|Regina|2026-02
+fc|Regina|2026-03
+fc|Regina|2026-04
+fc|Regina|2026-05
+fc|Regina|2026-06
+fc|Regina|2026-07
+fc|Saskatoon|2024-01
+fc|Saskatoon|2024-02
+fc|Saskatoon|2024-03
+fc|Saskatoon|2024-04
+fc|Saskatoon|2024-05
+fc|Saskatoon|2024-06
+fc|Saskatoon|2024-07
+fc|Saskatoon|2024-08
+fc|Saskatoon|2024-09
+fc|Saskatoon|2024-10
+fc|Saskatoon|2024-11
+fc|Saskatoon|2024-12
+fc|Saskatoon|2025-01
+fc|Saskatoon|2025-02
+fc|Saskatoon|2025-03
+fc|Saskatoon|2025-04
+fc|Saskatoon|2025-05
+fc|Saskatoon|2025-06
+fc|Saskatoon|2025-07
+fc|Saskatoon|2025-08
+fc|Saskatoon|2025-09
+fc|Saskatoon|2025-10
+fc|Saskatoon|2025-11
+fc|Saskatoon|2025-12
+fc|Saskatoon|2026-01
+fc|Saskatoon|2026-02
+fc|Saskatoon|2026-03
+fc|Saskatoon|2026-04
+fc|Saskatoon|2026-05
+fc|Saskatoon|2026-06
+fc|Saskatoon|2026-07
+fc|Calgary|2024-01
+fc|Calgary|2024-02
+fc|Calgary|2024-03
+fc|Calgary|2024-04
+fc|Calgary|2024-05
+fc|Calgary|2024-06
+fc|Calgary|2024-07
+fc|Calgary|2024-08
+fc|Calgary|2024-09
+fc|Calgary|2024-10
+fc|Calgary|2024-11
+fc|Calgary|2024-12
+fc|Calgary|2025-01
+fc|Calgary|2025-02
+fc|Calgary|2025-03
+fc|Calgary|2025-04
+fc|Calgary|2025-05
+fc|Calgary|2025-06
+fc|Calgary|2025-07
+fc|Calgary|2025-08
+fc|Calgary|2025-09
+fc|Calgary|2025-10
+fc|Calgary|2025-11
+fc|Calgary|2025-12
+fc|Calgary|2026-01
+fc|Calgary|2026-02
+fc|Calgary|2026-03
+fc|Calgary|2026-04
+fc|Calgary|2026-05
+fc|Calgary|2026-06
+fc|Calgary|2026-07
+fc|Edmonton|2024-01
+fc|Edmonton|2024-02
+fc|Edmonton|2024-03
+fc|Edmonton|2024-04
+fc|Edmonton|2024-05
+fc|Edmonton|2024-06
+fc|Edmonton|2024-07
+fc|Edmonton|2024-08
+fc|Edmonton|2024-09
+fc|Edmonton|2024-10
+fc|Edmonton|2024-11
+fc|Edmonton|2024-12
+fc|Edmonton|2025-01
+fc|Edmonton|2025-02
+fc|Edmonton|2025-03
+fc|Edmonton|2025-04
+fc|Edmonton|2025-05
+fc|Edmonton|2025-06
+fc|Edmonton|2025-07
+fc|Edmonton|2025-08
+fc|Edmonton|2025-09
+fc|Edmonton|2025-10
+fc|Edmonton|2025-11
+fc|Edmonton|2025-12
+fc|Edmonton|2026-01
+fc|Edmonton|2026-02
+fc|Edmonton|2026-03
+fc|Edmonton|2026-04
+fc|Edmonton|2026-05
+fc|Edmonton|2026-06
+fc|Edmonton|2026-07
+fc|Vancouver|2024-01
+fc|Vancouver|2024-02
+fc|Vancouver|2024-03
+fc|Vancouver|2024-04
+fc|Vancouver|2024-05
+fc|Vancouver|2024-06
+fc|Vancouver|2024-07
+fc|Vancouver|2024-08
+fc|Vancouver|2024-09
+fc|Vancouver|2024-10
+fc|Vancouver|2024-11
+fc|Vancouver|2024-12
+fc|Vancouver|2025-01
+fc|Vancouver|2025-02
+fc|Vancouver|2025-03
+fc|Vancouver|2025-04
+fc|Vancouver|2025-05
+fc|Vancouver|2025-06
+fc|Vancouver|2025-07
+fc|Vancouver|2025-08
+fc|Vancouver|2025-09
+fc|Vancouver|2025-10
+fc|Vancouver|2025-11
+fc|Vancouver|2025-12
+fc|Vancouver|2026-01
+fc|Vancouver|2026-02
+fc|Vancouver|2026-03
+fc|Vancouver|2026-04
+fc|Vancouver|2026-05
+fc|Vancouver|2026-06
+fc|Vancouver|2026-07
+fc|Victoria|2024-01
+fc|Victoria|2024-02
+fc|Victoria|2024-03
+fc|Victoria|2024-04
+fc|Victoria|2024-05
+fc|Victoria|2024-06
+fc|Victoria|2024-07
+fc|Victoria|2024-08
+fc|Victoria|2024-09
+fc|Victoria|2024-10
+fc|Victoria|2024-11
+fc|Victoria|2024-12
+fc|Victoria|2025-01
+fc|Victoria|2025-02
+fc|Victoria|2025-03
+fc|Victoria|2025-04
+fc|Victoria|2025-05
+fc|Victoria|2025-06
+fc|Victoria|2025-07
+fc|Victoria|2025-08
+fc|Victoria|2025-09
+fc|Victoria|2025-10
+fc|Victoria|2025-11
+fc|Victoria|2025-12
+fc|Victoria|2026-01
+fc|Victoria|2026-02
+fc|Victoria|2026-03
+fc|Victoria|2026-04
+fc|Victoria|2026-05
+fc|Victoria|2026-06
+fc|Victoria|2026-07
+fc|Kelowna|2024-01
+fc|Kelowna|2024-02
+fc|Kelowna|2024-03
+fc|Kelowna|2024-04
+fc|Kelowna|2024-05
+fc|Kelowna|2024-06
+fc|Kelowna|2024-07
+fc|Kelowna|2024-08
+fc|Kelowna|2024-09
+fc|Kelowna|2024-10
+fc|Kelowna|2024-11
+fc|Kelowna|2024-12
+fc|Kelowna|2025-01
+fc|Kelowna|2025-02
+fc|Kelowna|2025-03
+fc|Kelowna|2025-04
+fc|Kelowna|2025-05
+fc|Kelowna|2025-06
+fc|Kelowna|2025-07
+fc|Kelowna|2025-08
+fc|Kelowna|2025-09
+fc|Kelowna|2025-10
+fc|Kelowna|2025-11
+fc|Kelowna|2025-12
+fc|Kelowna|2026-01
+fc|Kelowna|2026-02
+fc|Kelowna|2026-03
+fc|Kelowna|2026-04
+fc|Kelowna|2026-05
+fc|Kelowna|2026-06
+fc|Kelowna|2026-07
+fc|Toronto|2024-01
+fc|Toronto|2024-02
+fc|Toronto|2024-03
+fc|Toronto|2024-04
+fc|Toronto|2024-05
+fc|Toronto|2024-06
+fc|Toronto|2024-07
+fc|Toronto|2024-08
+fc|Toronto|2024-09
+fc|Toronto|2024-10
+fc|Toronto|2024-11
+fc|Toronto|2024-12
+fc|Toronto|2025-01
+fc|Toronto|2025-02
+fc|Toronto|2025-03
+fc|Toronto|2025-04
+fc|Toronto|2025-05
+fc|Toronto|2025-06
+fc|Toronto|2025-07
+fc|Toronto|2025-08
+fc|Toronto|2025-09
+fc|Toronto|2025-10
+fc|Toronto|2025-11
+fc|Toronto|2025-12
+fc|Toronto|2026-01
+fc|Toronto|2026-02
+fc|Toronto|2026-03
+fc|Toronto|2026-04
+fc|Toronto|2026-05
+fc|Toronto|2026-06
+fc|Toronto|2026-07
+fc|Ottawa|2024-01
+fc|Ottawa|2024-02
+fc|Ottawa|2024-03
+fc|Ottawa|2024-04
+fc|Ottawa|2024-05
+fc|Ottawa|2024-06
+fc|Ottawa|2024-07
+fc|Ottawa|2024-08
+fc|Ottawa|2024-09
+fc|Ottawa|2024-10
+fc|Ottawa|2024-11
+fc|Ottawa|2024-12
+fc|Ottawa|2025-01
+fc|Ottawa|2025-02
+fc|Ottawa|2025-03
+fc|Ottawa|2025-04
+fc|Ottawa|2025-05
+fc|Ottawa|2025-06
+fc|Ottawa|2025-07
+fc|Ottawa|2025-08
+fc|Ottawa|2025-09
+fc|Ottawa|2025-10
+fc|Ottawa|2025-11
+fc|Ottawa|2025-12
+fc|Ottawa|2026-01
+fc|Ottawa|2026-02
+fc|Ottawa|2026-03
+fc|Ottawa|2026-04
+fc|Ottawa|2026-05
+fc|Ottawa|2026-06
+fc|Ottawa|2026-07
+fc|Hamilton|2024-01
+fc|Hamilton|2024-02
+fc|Hamilton|2024-03
+fc|Hamilton|2024-04
+fc|Hamilton|2024-05
+fc|Hamilton|2024-06
+fc|Hamilton|2024-07
+fc|Hamilton|2024-08
+fc|Hamilton|2024-09
+fc|Hamilton|2024-10
+fc|Hamilton|2024-11
+fc|Hamilton|2024-12
+fc|Hamilton|2025-01
+fc|Hamilton|2025-02
+fc|Hamilton|2025-03
+fc|Hamilton|2025-04
+fc|Hamilton|2025-05
+fc|Hamilton|2025-06
+fc|Hamilton|2025-07
+fc|Hamilton|2025-08
+fc|Hamilton|2025-09
+fc|Hamilton|2025-10
+fc|Hamilton|2025-11
+fc|Hamilton|2025-12
+fc|Hamilton|2026-01
+fc|Hamilton|2026-02
+fc|Hamilton|2026-03
+fc|Hamilton|2026-04
+fc|Hamilton|2026-05
+fc|Hamilton|2026-06
+fc|Hamilton|2026-07
+fc|London|2024-01
+fc|London|2024-02
+fc|London|2024-03
+fc|London|2024-04
+fc|London|2024-05
+fc|London|2024-06
+fc|London|2024-07
+fc|London|2024-08
+fc|London|2024-09
+fc|London|2024-10
+fc|London|2024-11
+fc|London|2024-12
+fc|London|2025-01
+fc|London|2025-02
+fc|London|2025-03
+fc|London|2025-04
+fc|London|2025-05
+fc|London|2025-06
+fc|London|2025-07
+fc|London|2025-08
+fc|London|2025-09
+fc|London|2025-10
+fc|London|2025-11
+fc|London|2025-12
+fc|London|2026-01
+fc|London|2026-02
+fc|London|2026-03
+fc|London|2026-04
+fc|London|2026-05
+fc|London|2026-06
+fc|London|2026-07
+fc|Montreal|2024-01
+fc|Montreal|2024-02
+fc|Montreal|2024-03
+fc|Montreal|2024-04
+fc|Montreal|2024-05
+fc|Montreal|2024-06
+fc|Montreal|2024-07
+fc|Montreal|2024-08
+fc|Montreal|2024-09
+fc|Montreal|2024-10
+fc|Montreal|2024-11
+fc|Montreal|2024-12
+fc|Montreal|2025-01
+fc|Montreal|2025-02
+fc|Montreal|2025-03
+fc|Montreal|2025-04
+fc|Montreal|2025-05
+fc|Montreal|2025-06
+fc|Montreal|2025-07
+fc|Montreal|2025-08
+fc|Montreal|2025-09
+fc|Montreal|2025-10
+fc|Montreal|2025-11
+fc|Montreal|2025-12
+fc|Montreal|2026-01
+fc|Montreal|2026-02
+fc|Montreal|2026-03
+fc|Montreal|2026-04
+fc|Montreal|2026-05
+fc|Montreal|2026-06
+fc|Montreal|2026-07
+fc|Quebec City|2024-01
+fc|Quebec City|2024-02
+fc|Quebec City|2024-03
+fc|Quebec City|2024-04
+fc|Quebec City|2024-05
+fc|Quebec City|2024-06
+fc|Quebec City|2024-07
+fc|Quebec City|2024-08
+fc|Quebec City|2024-09
+fc|Quebec City|2024-10
+fc|Quebec City|2024-11
+fc|Quebec City|2024-12
+fc|Quebec City|2025-01
+fc|Quebec City|2025-02
+fc|Quebec City|2025-03
+fc|Quebec City|2025-04
+fc|Quebec City|2025-05
+fc|Quebec City|2025-06
+fc|Quebec City|2025-07
+fc|Quebec City|2025-08
+fc|Quebec City|2025-09
+fc|Quebec City|2025-10
+fc|Quebec City|2025-11
+fc|Quebec City|2025-12
+fc|Quebec City|2026-01
+fc|Quebec City|2026-02
+fc|Quebec City|2026-03
+fc|Quebec City|2026-04
+fc|Quebec City|2026-05
+fc|Quebec City|2026-06
+fc|Quebec City|2026-07
+fc|Gatineau|2024-01
+fc|Gatineau|2024-02
+fc|Gatineau|2024-03
+fc|Gatineau|2024-04
+fc|Gatineau|2024-05
+fc|Gatineau|2024-06
+fc|Gatineau|2024-07
+fc|Gatineau|2024-08
+fc|Gatineau|2024-09
+fc|Gatineau|2024-10
+fc|Gatineau|2024-11
+fc|Gatineau|2024-12
+fc|Gatineau|2025-01
+fc|Gatineau|2025-02
+fc|Gatineau|2025-03
+fc|Gatineau|2025-04
+fc|Gatineau|2025-05
+fc|Gatineau|2025-06
+fc|Gatineau|2025-07
+fc|Gatineau|2025-08
+fc|Gatineau|2025-09
+fc|Gatineau|2025-10
+fc|Gatineau|2025-11
+fc|Gatineau|2025-12
+fc|Gatineau|2026-01
+fc|Gatineau|2026-02
+fc|Gatineau|2026-03
+fc|Gatineau|2026-04
+fc|Gatineau|2026-05
+fc|Gatineau|2026-06
+fc|Gatineau|2026-07
+fc|Halifax|2024-01
+fc|Halifax|2024-02
+fc|Halifax|2024-03
+fc|Halifax|2024-04
+fc|Halifax|2024-05
+fc|Halifax|2024-06
+fc|Halifax|2024-07
+fc|Halifax|2024-08
+fc|Halifax|2024-09
+fc|Halifax|2024-10
+fc|Halifax|2024-11
+fc|Halifax|2024-12
+fc|Halifax|2025-01
+fc|Halifax|2025-02
+fc|Halifax|2025-03
+fc|Halifax|2025-04
+fc|Halifax|2025-05
+fc|Halifax|2025-06
+fc|Halifax|2025-07
+fc|Halifax|2025-08
+fc|Halifax|2025-09
+fc|Halifax|2025-10
+fc|Halifax|2025-11
+fc|Halifax|2025-12
+fc|Halifax|2026-01
+fc|Halifax|2026-02
+fc|Halifax|2026-03
+fc|Halifax|2026-04
+fc|Halifax|2026-05
+fc|Halifax|2026-06
+fc|Halifax|2026-07
+fc|Fredericton|2024-01
+fc|Fredericton|2024-02
+fc|Fredericton|2024-03
+fc|Fredericton|2024-04
+fc|Fredericton|2024-05
+fc|Fredericton|2024-06
+fc|Fredericton|2024-07
+fc|Fredericton|2024-08
+fc|Fredericton|2024-09
+fc|Fredericton|2024-10
+fc|Fredericton|2024-11
+fc|Fredericton|2024-12
+fc|Fredericton|2025-01
+fc|Fredericton|2025-02
+fc|Fredericton|2025-03
+fc|Fredericton|2025-04
+fc|Fredericton|2025-05
+fc|Fredericton|2025-06
+fc|Fredericton|2025-07
+fc|Fredericton|2025-08
+fc|Fredericton|2025-09
+fc|Fredericton|2025-10
+fc|Fredericton|2025-11
+fc|Fredericton|2025-12
+fc|Fredericton|2026-01
+fc|Fredericton|2026-02
+fc|Fredericton|2026-03
+fc|Fredericton|2026-04
+fc|Fredericton|2026-05
+fc|Fredericton|2026-06
+fc|Fredericton|2026-07
+fc|Moncton|2024-01
+fc|Moncton|2024-02
+fc|Moncton|2024-03
+fc|Moncton|2024-04
+fc|Moncton|2024-05
+fc|Moncton|2024-06
+fc|Moncton|2024-07
+fc|Moncton|2024-08
+fc|Moncton|2024-09
+fc|Moncton|2024-10
+fc|Moncton|2024-11
+fc|Moncton|2024-12
+fc|Moncton|2025-01
+fc|Moncton|2025-02
+fc|Moncton|2025-03
+fc|Moncton|2025-04
+fc|Moncton|2025-05
+fc|Moncton|2025-06
+fc|Moncton|2025-07
+fc|Moncton|2025-08
+fc|Moncton|2025-09
+fc|Moncton|2025-10
+fc|Moncton|2025-11
+fc|Moncton|2025-12
+fc|Moncton|2026-01
+fc|Moncton|2026-02
+fc|Moncton|2026-03
+fc|Moncton|2026-04
+fc|Moncton|2026-05
+fc|Moncton|2026-06
+fc|Moncton|2026-07
+fc|Charlottetown|2024-01
+fc|Charlottetown|2024-02
+fc|Charlottetown|2024-03
+fc|Charlottetown|2024-04
+fc|Charlottetown|2024-05
+fc|Charlottetown|2024-06
+fc|Charlottetown|2024-07
+fc|Charlottetown|2024-08
+fc|Charlottetown|2024-09
+fc|Charlottetown|2024-10
+fc|Charlottetown|2024-11
+fc|Charlottetown|2024-12
+fc|Charlottetown|2025-01
+fc|Charlottetown|2025-02
+fc|Charlottetown|2025-03
+fc|Charlottetown|2025-04
+fc|Charlottetown|2025-05
+fc|Charlottetown|2025-06
+fc|Charlottetown|2025-07
+fc|Charlottetown|2025-08
+fc|Charlottetown|2025-09
+fc|Charlottetown|2025-10
+fc|Charlottetown|2025-11
+fc|Charlottetown|2025-12
+fc|Charlottetown|2026-01
+fc|Charlottetown|2026-02
+fc|Charlottetown|2026-03
+fc|Charlottetown|2026-04
+fc|Charlottetown|2026-05
+fc|Charlottetown|2026-06
+fc|Charlottetown|2026-07
+fc|St. John's|2024-01
+fc|St. John's|2024-02
+fc|St. John's|2024-03
+fc|St. John's|2024-04
+fc|St. John's|2024-05
+fc|St. John's|2024-06
+fc|St. John's|2024-07
+fc|St. John's|2024-08
+fc|St. John's|2024-09
+fc|St. John's|2024-10
+fc|St. John's|2024-11
+fc|St. John's|2024-12
+fc|St. John's|2025-01
+fc|St. John's|2025-02
+fc|St. John's|2025-03
+fc|St. John's|2025-04
+fc|St. John's|2025-05
+fc|St. John's|2025-06
+fc|St. John's|2025-07
+fc|St. John's|2025-08
+fc|St. John's|2025-09
+fc|St. John's|2025-10
+fc|St. John's|2025-11
+fc|St. John's|2025-12
+fc|St. John's|2026-01
+fc|St. John's|2026-02
+fc|St. John's|2026-03
+fc|St. John's|2026-04
+fc|St. John's|2026-05
+fc|St. John's|2026-06
+fc|St. John's|2026-07
+fc|Whitehorse|2024-01
+fc|Whitehorse|2024-02
+fc|Whitehorse|2024-03
+fc|Whitehorse|2024-04
+fc|Whitehorse|2024-05
+fc|Whitehorse|2024-06
+fc|Whitehorse|2024-07
+fc|Whitehorse|2024-08
+fc|Whitehorse|2024-09
+fc|Whitehorse|2024-10
+fc|Whitehorse|2024-11
+fc|Whitehorse|2024-12
+fc|Whitehorse|2025-01
+fc|Whitehorse|2025-02
+fc|Whitehorse|2025-03
+fc|Whitehorse|2025-04
+fc|Whitehorse|2025-05
+fc|Whitehorse|2025-06
+fc|Whitehorse|2025-07
+fc|Whitehorse|2025-08
+fc|Whitehorse|2025-09
+fc|Whitehorse|2025-10
+fc|Whitehorse|2025-11
+fc|Whitehorse|2025-12
+fc|Whitehorse|2026-01
+fc|Whitehorse|2026-02
+fc|Whitehorse|2026-03
+fc|Whitehorse|2026-04
+fc|Whitehorse|2026-05
+fc|Whitehorse|2026-06
+fc|Whitehorse|2026-07
+fc|Yellowknife|2024-01
+fc|Yellowknife|2024-02
+fc|Yellowknife|2024-03
+fc|Yellowknife|2024-04
+fc|Yellowknife|2024-05
+fc|Yellowknife|2024-06
+fc|Yellowknife|2024-07
+fc|Yellowknife|2024-08
+fc|Yellowknife|2024-09
+fc|Yellowknife|2024-10
+fc|Yellowknife|2024-11
+fc|Yellowknife|2024-12
+fc|Yellowknife|2025-01
+fc|Yellowknife|2025-02
+fc|Yellowknife|2025-03
+fc|Yellowknife|2025-04
+fc|Yellowknife|2025-05
+fc|Yellowknife|2025-06
+fc|Yellowknife|2025-07
+fc|Yellowknife|2025-08
+fc|Yellowknife|2025-09
+fc|Yellowknife|2025-10
+fc|Yellowknife|2025-11
+fc|Yellowknife|2025-12
+fc|Yellowknife|2026-01
+fc|Yellowknife|2026-02
+fc|Yellowknife|2026-03
+fc|Yellowknife|2026-04
+fc|Yellowknife|2026-05
+fc|Yellowknife|2026-06
+fc|Yellowknife|2026-07
+fc|Iqaluit|2024-01
+fc|Iqaluit|2024-02
+fc|Iqaluit|2024-03
+fc|Iqaluit|2024-04
+fc|Iqaluit|2024-05
+fc|Iqaluit|2024-06
+fc|Iqaluit|2024-07
+fc|Iqaluit|2024-08
+fc|Iqaluit|2024-09
+fc|Iqaluit|2024-10
+fc|Iqaluit|2024-11
+fc|Iqaluit|2024-12
+fc|Iqaluit|2025-01
+fc|Iqaluit|2025-02
+fc|Iqaluit|2025-03
+fc|Iqaluit|2025-04
+fc|Iqaluit|2025-05
+fc|Iqaluit|2025-06
+fc|Iqaluit|2025-07
+fc|Iqaluit|2025-08
+fc|Iqaluit|2025-09
+fc|Iqaluit|2025-10
+fc|Iqaluit|2025-11
+fc|Iqaluit|2025-12
+fc|Iqaluit|2026-01
+fc|Iqaluit|2026-02
+fc|Iqaluit|2026-03
+fc|Iqaluit|2026-04
+fc|Iqaluit|2026-05
+fc|Iqaluit|2026-06
+fc|Iqaluit|2026-07
+obs|Winnipeg|2024-01
+obs|Winnipeg|2024-02
+obs|Winnipeg|2024-03
+obs|Winnipeg|2024-04
+obs|Winnipeg|2024-05
+obs|Winnipeg|2024-06
+obs|Winnipeg|2024-07
+obs|Winnipeg|2024-08
+obs|Winnipeg|2024-09
+obs|Winnipeg|2024-10
+obs|Winnipeg|2024-11
+obs|Winnipeg|2024-12
+obs|Winnipeg|2025-01
+obs|Winnipeg|2025-02
+obs|Winnipeg|2025-03
+obs|Winnipeg|2025-04
+obs|Winnipeg|2025-05
+obs|Winnipeg|2025-06
+obs|Winnipeg|2025-07
+obs|Winnipeg|2025-08
+obs|Winnipeg|2025-09
+obs|Winnipeg|2025-10
+obs|Winnipeg|2025-11
+obs|Winnipeg|2025-12
+obs|Winnipeg|2026-01
+obs|Winnipeg|2026-02
+obs|Winnipeg|2026-03
+obs|Winnipeg|2026-04
+obs|Winnipeg|2026-05
+obs|Winnipeg|2026-06
+obs|Winnipeg|2026-07
+obs|Brandon|2024-01
+obs|Brandon|2024-02
+obs|Brandon|2024-03
+obs|Brandon|2024-04
+obs|Brandon|2024-05
+obs|Brandon|2024-06
+obs|Brandon|2024-07
+obs|Brandon|2024-08
+obs|Brandon|2024-09
+obs|Brandon|2024-10
+obs|Brandon|2024-11
+obs|Brandon|2024-12
+obs|Brandon|2025-01
+obs|Brandon|2025-02
+obs|Brandon|2025-03
+obs|Brandon|2025-04
+obs|Brandon|2025-05
+obs|Brandon|2025-06
+obs|Brandon|2025-07
+obs|Brandon|2025-08
+obs|Brandon|2025-09
+obs|Brandon|2025-10
+obs|Brandon|2025-11
+obs|Brandon|2025-12
+obs|Brandon|2026-01
+obs|Brandon|2026-02
+obs|Brandon|2026-03
+obs|Brandon|2026-04
+obs|Brandon|2026-05
+obs|Brandon|2026-06
+obs|Brandon|2026-07
+obs|Thompson|2024-01
+obs|Thompson|2024-02
+obs|Thompson|2024-03
+obs|Thompson|2024-04
+obs|Thompson|2024-05
+obs|Thompson|2024-06
+obs|Thompson|2024-07
+obs|Thompson|2024-08
+obs|Thompson|2024-09
+obs|Thompson|2024-10
+obs|Thompson|2024-11
+obs|Thompson|2024-12
+obs|Thompson|2025-01
+obs|Thompson|2025-02
+obs|Thompson|2025-03
+obs|Thompson|2025-04
+obs|Thompson|2025-05
+obs|Thompson|2025-06
+obs|Thompson|2025-07
+obs|Thompson|2025-08
+obs|Thompson|2025-09
+obs|Thompson|2025-10
+obs|Thompson|2025-11
+obs|Thompson|2025-12
+obs|Thompson|2026-01
+obs|Thompson|2026-02
+obs|Thompson|2026-03
+obs|Thompson|2026-04
+obs|Thompson|2026-05
+obs|Thompson|2026-06
+obs|Thompson|2026-07
+obs|Portage la Prairie|2024-01
+obs|Portage la Prairie|2024-02
+obs|Portage la Prairie|2024-03
+obs|Portage la Prairie|2024-04
+obs|Portage la Prairie|2024-05
+obs|Portage la Prairie|2024-06
+obs|Portage la Prairie|2024-07
+obs|Portage la Prairie|2024-08
+obs|Portage la Prairie|2024-09
+obs|Portage la Prairie|2024-10
+obs|Portage la Prairie|2024-11
+obs|Portage la Prairie|2024-12
+obs|Portage la Prairie|2025-01
+obs|Portage la Prairie|2025-02
+obs|Portage la Prairie|2025-03
+obs|Portage la Prairie|2025-04
+obs|Portage la Prairie|2025-05
+obs|Portage la Prairie|2025-06
+obs|Portage la Prairie|2025-07
+obs|Portage la Prairie|2025-08
+obs|Portage la Prairie|2025-09
+obs|Portage la Prairie|2025-10
+obs|Portage la Prairie|2025-11
+obs|Portage la Prairie|2025-12
+obs|Portage la Prairie|2026-01
+obs|Portage la Prairie|2026-02
+obs|Portage la Prairie|2026-03
+obs|Portage la Prairie|2026-04
+obs|Portage la Prairie|2026-05
+obs|Portage la Prairie|2026-06
+obs|Portage la Prairie|2026-07
+obs|Steinbach|2024-01
+obs|Steinbach|2024-02
+obs|Steinbach|2024-03
+obs|Steinbach|2024-04
+obs|Steinbach|2024-05
+obs|Steinbach|2024-06
+obs|Steinbach|2024-07
+obs|Steinbach|2024-08
+obs|Steinbach|2024-09
+obs|Steinbach|2024-10
+obs|Steinbach|2024-11
+obs|Steinbach|2024-12
+obs|Steinbach|2025-01
+obs|Steinbach|2025-02
+obs|Steinbach|2025-03
+obs|Steinbach|2025-04
+obs|Steinbach|2025-05
+obs|Steinbach|2025-06
+obs|Steinbach|2025-07
+obs|Steinbach|2025-08
+obs|Steinbach|2025-09
+obs|Steinbach|2025-10
+obs|Steinbach|2025-11
+obs|Steinbach|2025-12
+obs|Steinbach|2026-01
+obs|Steinbach|2026-02
+obs|Steinbach|2026-03
+obs|Steinbach|2026-04
+obs|Steinbach|2026-05
+obs|Steinbach|2026-06
+obs|Steinbach|2026-07
+obs|Regina|2024-01
+obs|Regina|2024-02
+obs|Regina|2024-03
+obs|Regina|2024-04
+obs|Regina|2024-05
+obs|Regina|2024-06
+obs|Regina|2024-07
+obs|Regina|2024-08
+obs|Regina|2024-09
+obs|Regina|2024-10
+obs|Regina|2024-11
+obs|Regina|2024-12
+obs|Regina|2025-01
+obs|Regina|2025-02
+obs|Regina|2025-03
+obs|Regina|2025-04
+obs|Regina|2025-05
+obs|Regina|2025-06
+obs|Regina|2025-07
+obs|Regina|2025-08
+obs|Regina|2025-09
+obs|Regina|2025-10
+obs|Regina|2025-11
+obs|Regina|2025-12
+obs|Regina|2026-01
+obs|Regina|2026-02
+obs|Regina|2026-03
+obs|Regina|2026-04
+obs|Regina|2026-05
+obs|Regina|2026-06
+obs|Regina|2026-07
+obs|Saskatoon|2024-01
+obs|Saskatoon|2024-02
+obs|Saskatoon|2024-03
+obs|Saskatoon|2024-04
+obs|Saskatoon|2024-05
+obs|Saskatoon|2024-06
+obs|Saskatoon|2024-07
+obs|Saskatoon|2024-08
+obs|Saskatoon|2024-09
+obs|Saskatoon|2024-10
+obs|Saskatoon|2024-11
+obs|Saskatoon|2024-12
+obs|Saskatoon|2025-01
+obs|Saskatoon|2025-02
+obs|Saskatoon|2025-03
+obs|Saskatoon|2025-04
+obs|Saskatoon|2025-05
+obs|Saskatoon|2025-06
+obs|Saskatoon|2025-07
+obs|Saskatoon|2025-08
+obs|Saskatoon|2025-09
+obs|Saskatoon|2025-10
+obs|Saskatoon|2025-11
+obs|Saskatoon|2025-12
+obs|Saskatoon|2026-01
+obs|Saskatoon|2026-02
+obs|Saskatoon|2026-03
+obs|Saskatoon|2026-04
+obs|Saskatoon|2026-05
+obs|Saskatoon|2026-06
+obs|Saskatoon|2026-07
+obs|Calgary|2024-01
+obs|Calgary|2024-02
+obs|Calgary|2024-03
+obs|Calgary|2024-04
+obs|Calgary|2024-05
+obs|Calgary|2024-06
+obs|Calgary|2024-07
+obs|Calgary|2024-08
+obs|Calgary|2024-09
+obs|Calgary|2024-10
+obs|Calgary|2024-11
+obs|Calgary|2024-12
+obs|Calgary|2025-01
+obs|Calgary|2025-02
+obs|Calgary|2025-03
+obs|Calgary|2025-04
+obs|Calgary|2025-05
+obs|Calgary|2025-06
+obs|Calgary|2025-07
+obs|Calgary|2025-08
+obs|Calgary|2025-09
+obs|Calgary|2025-10
+obs|Calgary|2025-11
+obs|Calgary|2025-12
+obs|Calgary|2026-01
+obs|Calgary|2026-02
+obs|Calgary|2026-03
+obs|Calgary|2026-04
+obs|Calgary|2026-05
+obs|Calgary|2026-06
+obs|Calgary|2026-07
+obs|Edmonton|2024-01
+obs|Edmonton|2024-02
+obs|Edmonton|2024-03
+obs|Edmonton|2024-04
+obs|Edmonton|2024-05
+obs|Edmonton|2024-06
+obs|Edmonton|2024-07
+obs|Edmonton|2024-08
+obs|Edmonton|2024-09
+obs|Edmonton|2024-10
+obs|Edmonton|2024-11
+obs|Edmonton|2024-12
+obs|Edmonton|2025-01
+obs|Edmonton|2025-02
+obs|Edmonton|2025-03
+obs|Edmonton|2025-04
+obs|Edmonton|2025-05
+obs|Edmonton|2025-06
+obs|Edmonton|2025-07
+obs|Edmonton|2025-08
+obs|Edmonton|2025-09
+obs|Edmonton|2025-10
+obs|Edmonton|2025-11
+obs|Edmonton|2025-12
+obs|Edmonton|2026-01
+obs|Edmonton|2026-02
+obs|Edmonton|2026-03
+obs|Edmonton|2026-04
+obs|Edmonton|2026-05
+obs|Edmonton|2026-06
+obs|Edmonton|2026-07
+obs|Vancouver|2024-01
+obs|Vancouver|2024-02
+obs|Vancouver|2024-03
+obs|Vancouver|2024-04
+obs|Vancouver|2024-05
+obs|Vancouver|2024-06
+obs|Vancouver|2024-07
+obs|Vancouver|2024-08
+obs|Vancouver|2024-09
+obs|Vancouver|2024-10
+obs|Vancouver|2024-11
+obs|Vancouver|2024-12
+obs|Vancouver|2025-01
+obs|Vancouver|2025-02
+obs|Vancouver|2025-03
+obs|Vancouver|2025-04
+obs|Vancouver|2025-05
+obs|Vancouver|2025-06
+obs|Vancouver|2025-07
+obs|Vancouver|2025-08
+obs|Vancouver|2025-09
+obs|Vancouver|2025-10
+obs|Vancouver|2025-11
+obs|Vancouver|2025-12
+obs|Vancouver|2026-01
+obs|Vancouver|2026-02
+obs|Vancouver|2026-03
+obs|Vancouver|2026-04
+obs|Vancouver|2026-05
+obs|Vancouver|2026-06
+obs|Vancouver|2026-07
+obs|Victoria|2024-01
+obs|Victoria|2024-02
+obs|Victoria|2024-03
+obs|Victoria|2024-04
+obs|Victoria|2024-05
+obs|Victoria|2024-06
+obs|Victoria|2024-07
+obs|Victoria|2024-08
+obs|Victoria|2024-09
+obs|Victoria|2024-10
+obs|Victoria|2024-11
+obs|Victoria|2024-12
+obs|Victoria|2025-01
+obs|Victoria|2025-02
+obs|Victoria|2025-03
+obs|Victoria|2025-04
+obs|Victoria|2025-05
+obs|Victoria|2025-06
+obs|Victoria|2025-07
+obs|Victoria|2025-08
+obs|Victoria|2025-09
+obs|Victoria|2025-10
+obs|Victoria|2025-11
+obs|Victoria|2025-12
+obs|Victoria|2026-01
+obs|Victoria|2026-02
+obs|Victoria|2026-03
+obs|Victoria|2026-04
+obs|Victoria|2026-05
+obs|Victoria|2026-06
+obs|Victoria|2026-07
+obs|Kelowna|2024-01
+obs|Kelowna|2024-02
+obs|Kelowna|2024-03
+obs|Kelowna|2024-04
+obs|Kelowna|2024-05
+obs|Kelowna|2024-06
+obs|Kelowna|2024-07
+obs|Kelowna|2024-08
+obs|Kelowna|2024-09
+obs|Kelowna|2024-10
+obs|Kelowna|2024-11
+obs|Kelowna|2024-12
+obs|Kelowna|2025-01
+obs|Kelowna|2025-02
+obs|Kelowna|2025-03
+obs|Kelowna|2025-04
+obs|Kelowna|2025-05
+obs|Kelowna|2025-06
+obs|Kelowna|2025-07
+obs|Kelowna|2025-08
+obs|Kelowna|2025-09
+obs|Kelowna|2025-10
+obs|Kelowna|2025-11
+obs|Kelowna|2025-12
+obs|Kelowna|2026-01
+obs|Kelowna|2026-02
+obs|Kelowna|2026-03
+obs|Kelowna|2026-04
+obs|Kelowna|2026-05
+obs|Kelowna|2026-06
+obs|Kelowna|2026-07
+obs|Toronto|2024-01
+obs|Toronto|2024-02
+obs|Toronto|2024-03
+obs|Toronto|2024-04
+obs|Toronto|2024-05
+obs|Toronto|2024-06
+obs|Toronto|2024-07
+obs|Toronto|2024-08
+obs|Toronto|2024-09
+obs|Toronto|2024-10
+obs|Toronto|2024-11
+obs|Toronto|2024-12
+obs|Toronto|2025-01
+obs|Toronto|2025-02
+obs|Toronto|2025-03
+obs|Toronto|2025-04
+obs|Toronto|2025-05
+obs|Toronto|2025-06
+obs|Toronto|2025-07
+obs|Toronto|2025-08
+obs|Toronto|2025-09
+obs|Toronto|2025-10
+obs|Toronto|2025-11
+obs|Toronto|2025-12
+obs|Toronto|2026-01
+obs|Toronto|2026-02
+obs|Toronto|2026-03
+obs|Toronto|2026-04
+obs|Toronto|2026-05
+obs|Toronto|2026-06
+obs|Toronto|2026-07
+obs|Ottawa|2024-01
+obs|Ottawa|2024-02
+obs|Ottawa|2024-03
+obs|Ottawa|2024-04
+obs|Ottawa|2024-05
+obs|Ottawa|2024-06
+obs|Ottawa|2024-07
+obs|Ottawa|2024-08
+obs|Ottawa|2024-09
+obs|Ottawa|2024-10
+obs|Ottawa|2024-11
+obs|Ottawa|2024-12
+obs|Ottawa|2025-01
+obs|Ottawa|2025-02
+obs|Ottawa|2025-03
+obs|Ottawa|2025-04
+obs|Ottawa|2025-05
+obs|Ottawa|2025-06
+obs|Ottawa|2025-07
+obs|Ottawa|2025-08
+obs|Ottawa|2025-09
+obs|Ottawa|2025-10
+obs|Ottawa|2025-11
+obs|Ottawa|2025-12
+obs|Ottawa|2026-01
+obs|Ottawa|2026-02
+obs|Ottawa|2026-03
+obs|Ottawa|2026-04
+obs|Ottawa|2026-05
+obs|Ottawa|2026-06
+obs|Ottawa|2026-07
+obs|Hamilton|2024-01
+obs|Hamilton|2024-02
+obs|Hamilton|2024-03
+obs|Hamilton|2024-04
+obs|Hamilton|2024-05
+obs|Hamilton|2024-06
+obs|Hamilton|2024-07
+obs|Hamilton|2024-08
+obs|Hamilton|2024-09
+obs|Hamilton|2024-10
+obs|Hamilton|2024-11
+obs|Hamilton|2024-12
+obs|Hamilton|2025-01
+obs|Hamilton|2025-02
+obs|Hamilton|2025-03
+obs|Hamilton|2025-04
+obs|Hamilton|2025-05
+obs|Hamilton|2025-06
+obs|Hamilton|2025-07
+obs|Hamilton|2025-08
+obs|Hamilton|2025-09
+obs|Hamilton|2025-10
+obs|Hamilton|2025-11
+obs|Hamilton|2025-12
+obs|Hamilton|2026-01
+obs|Hamilton|2026-02
+obs|Hamilton|2026-03
+obs|Hamilton|2026-04
+obs|Hamilton|2026-05
+obs|Hamilton|2026-06
+obs|Hamilton|2026-07
+obs|London|2024-01
+obs|London|2024-02
+obs|London|2024-03
+obs|London|2024-04
+obs|London|2024-05
+obs|London|2024-06
+obs|London|2024-07
+obs|London|2024-08
+obs|London|2024-09
+obs|London|2024-10
+obs|London|2024-11
+obs|London|2024-12
+obs|London|2025-01
+obs|London|2025-02
+obs|London|2025-03
+obs|London|2025-04
+obs|London|2025-05
+obs|London|2025-06
+obs|London|2025-07
+obs|London|2025-08
+obs|London|2025-09
+obs|London|2025-10
+obs|London|2025-11
+obs|London|2025-12
+obs|London|2026-01
+obs|London|2026-02
+obs|London|2026-03
+obs|London|2026-04
+obs|London|2026-05
+obs|London|2026-06
+obs|London|2026-07
+obs|Montreal|2024-01
+obs|Montreal|2024-02
+obs|Montreal|2024-03
+obs|Montreal|2024-04
+obs|Montreal|2024-05
+obs|Montreal|2024-06
+obs|Montreal|2024-07
+obs|Montreal|2024-08
+obs|Montreal|2024-09
+obs|Montreal|2024-10
+obs|Montreal|2024-11
+obs|Montreal|2024-12
+obs|Montreal|2025-01
+obs|Montreal|2025-02
+obs|Montreal|2025-03
+obs|Montreal|2025-04
+obs|Montreal|2025-05
+obs|Montreal|2025-06
+obs|Montreal|2025-07
+obs|Montreal|2025-08
+obs|Montreal|2025-09
+obs|Montreal|2025-10
+obs|Montreal|2025-11
+obs|Montreal|2025-12
+obs|Montreal|2026-01
+obs|Montreal|2026-02
+obs|Montreal|2026-03
+obs|Montreal|2026-04
+obs|Montreal|2026-05
+obs|Montreal|2026-06
+obs|Montreal|2026-07
+obs|Quebec City|2024-01
+obs|Quebec City|2024-02
+obs|Quebec City|2024-03
+obs|Quebec City|2024-04
+obs|Quebec City|2024-05
+obs|Quebec City|2024-06
+obs|Quebec City|2024-07
+obs|Quebec City|2024-08
+obs|Quebec City|2024-09
+obs|Quebec City|2024-10
+obs|Quebec City|2024-11
+obs|Quebec City|2024-12
+obs|Quebec City|2025-01
+obs|Quebec City|2025-02
+obs|Quebec City|2025-03
+obs|Quebec City|2025-04
+obs|Quebec City|2025-05
+obs|Quebec City|2025-06
+obs|Quebec City|2025-07
+obs|Quebec City|2025-08
+obs|Quebec City|2025-09
+obs|Quebec City|2025-10
+obs|Quebec City|2025-11
+obs|Quebec City|2025-12
+obs|Quebec City|2026-01
+obs|Quebec City|2026-02
+obs|Quebec City|2026-03
+obs|Quebec City|2026-04
+obs|Quebec City|2026-05
+obs|Quebec City|2026-06
+obs|Quebec City|2026-07
+obs|Gatineau|2024-01
+obs|Gatineau|2024-02
+obs|Gatineau|2024-03
+obs|Gatineau|2024-04
+obs|Gatineau|2024-05
+obs|Gatineau|2024-06
+obs|Gatineau|2024-07
+obs|Gatineau|2024-08
+obs|Gatineau|2024-09
+obs|Gatineau|2024-10
+obs|Gatineau|2024-11
+obs|Gatineau|2024-12
+obs|Gatineau|2025-01
+obs|Gatineau|2025-02
+obs|Gatineau|2025-03
+obs|Gatineau|2025-04
+obs|Gatineau|2025-05
+obs|Gatineau|2025-06
+obs|Gatineau|2025-07
+obs|Gatineau|2025-08
+obs|Gatineau|2025-09
+obs|Gatineau|2025-10
+obs|Gatineau|2025-11
+obs|Gatineau|2025-12
+obs|Gatineau|2026-01
+obs|Gatineau|2026-02
+obs|Gatineau|2026-03
+obs|Gatineau|2026-04
+obs|Gatineau|2026-05
+obs|Gatineau|2026-06
+obs|Gatineau|2026-07
+obs|Halifax|2024-01
+obs|Halifax|2024-02
+obs|Halifax|2024-03
+obs|Halifax|2024-04
+obs|Halifax|2024-05
+obs|Halifax|2024-06
+obs|Halifax|2024-07
+obs|Halifax|2024-08
+obs|Halifax|2024-09
+obs|Halifax|2024-10
+obs|Halifax|2024-11
+obs|Halifax|2024-12
+obs|Halifax|2025-01
+obs|Halifax|2025-02
+obs|Halifax|2025-03
+obs|Halifax|2025-04
+obs|Halifax|2025-05
+obs|Halifax|2025-06
+obs|Halifax|2025-07
+obs|Halifax|2025-08
+obs|Halifax|2025-09
+obs|Halifax|2025-10
+obs|Halifax|2025-11
+obs|Halifax|2025-12
+obs|Halifax|2026-01
+obs|Halifax|2026-02
+obs|Halifax|2026-03
+obs|Halifax|2026-04
+obs|Halifax|2026-05
+obs|Halifax|2026-06
+obs|Halifax|2026-07
+obs|Fredericton|2024-01
+obs|Fredericton|2024-02
+obs|Fredericton|2024-03
+obs|Fredericton|2024-04
+obs|Fredericton|2024-05
+obs|Fredericton|2024-06
+obs|Fredericton|2024-07
+obs|Fredericton|2024-08
+obs|Fredericton|2024-09
+obs|Fredericton|2024-10
+obs|Fredericton|2024-11
+obs|Fredericton|2024-12
+obs|Fredericton|2025-01
+obs|Fredericton|2025-02
+obs|Fredericton|2025-03
+obs|Fredericton|2025-04
+obs|Fredericton|2025-05
+obs|Fredericton|2025-06
+obs|Fredericton|2025-07
+obs|Fredericton|2025-08
+obs|Fredericton|2025-09
+obs|Fredericton|2025-10
+obs|Fredericton|2025-11
+obs|Fredericton|2025-12
+obs|Fredericton|2026-01
+obs|Fredericton|2026-02
+obs|Fredericton|2026-03
+obs|Fredericton|2026-04
+obs|Fredericton|2026-05
+obs|Fredericton|2026-06
+obs|Fredericton|2026-07
+obs|Moncton|2024-01
+obs|Moncton|2024-02
+obs|Moncton|2024-03
+obs|Moncton|2024-04
+obs|Moncton|2024-05
+obs|Moncton|2024-06
+obs|Moncton|2024-07
+obs|Moncton|2024-08
+obs|Moncton|2024-09
+obs|Moncton|2024-10
+obs|Moncton|2024-11
+obs|Moncton|2024-12
+obs|Moncton|2025-01
+obs|Moncton|2025-02
+obs|Moncton|2025-03
+obs|Moncton|2025-04
+obs|Moncton|2025-05
+obs|Moncton|2025-06
+obs|Moncton|2025-07
+obs|Moncton|2025-08
+obs|Moncton|2025-09
+obs|Moncton|2025-10
+obs|Moncton|2025-11
+obs|Moncton|2025-12
+obs|Moncton|2026-01
+obs|Moncton|2026-02
+obs|Moncton|2026-03
+obs|Moncton|2026-04
+obs|Moncton|2026-05
+obs|Moncton|2026-06
+obs|Moncton|2026-07
+obs|Charlottetown|2024-01
+obs|Charlottetown|2024-02
+obs|Charlottetown|2024-03
+obs|Charlottetown|2024-04
+obs|Charlottetown|2024-05
+obs|Charlottetown|2024-06
+obs|Charlottetown|2024-07
+obs|Charlottetown|2024-08
+obs|Charlottetown|2024-09
+obs|Charlottetown|2024-10
+obs|Charlottetown|2024-11
+obs|Charlottetown|2024-12
+obs|Charlottetown|2025-01
+obs|Charlottetown|2025-02
+obs|Charlottetown|2025-03
+obs|Charlottetown|2025-04
+obs|Charlottetown|2025-05
+obs|Charlottetown|2025-06
+obs|Charlottetown|2025-07
+obs|Charlottetown|2025-08
+obs|Charlottetown|2025-09
+obs|Charlottetown|2025-10
+obs|Charlottetown|2025-11
+obs|Charlottetown|2025-12
+obs|Charlottetown|2026-01
+obs|Charlottetown|2026-02
+obs|Charlottetown|2026-03
+obs|Charlottetown|2026-04
+obs|Charlottetown|2026-05
+obs|Charlottetown|2026-06
+obs|Charlottetown|2026-07
+obs|St. John's|2024-01
+obs|St. John's|2024-02
+obs|St. John's|2024-03
+obs|St. John's|2024-04
+obs|St. John's|2024-05
+obs|St. John's|2024-06
+obs|St. John's|2024-07
+obs|St. John's|2024-08
+obs|St. John's|2024-09
+obs|St. John's|2024-10
+obs|St. John's|2024-11
+obs|St. John's|2024-12
+obs|St. John's|2025-01
+obs|St. John's|2025-02
+obs|St. John's|2025-03
+obs|St. John's|2025-04
+obs|St. John's|2025-05
+obs|St. John's|2025-06
+obs|St. John's|2025-07
+obs|St. John's|2025-08
+obs|St. John's|2025-09
+obs|St. John's|2025-10
+obs|St. John's|2025-11
+obs|St. John's|2025-12
+obs|St. John's|2026-01
+obs|St. John's|2026-02
+obs|St. John's|2026-03
+obs|St. John's|2026-04
+obs|St. John's|2026-05
+obs|St. John's|2026-06
+obs|St. John's|2026-07
+obs|Whitehorse|2024-01
+obs|Whitehorse|2024-02
+obs|Whitehorse|2024-03
+obs|Whitehorse|2024-04
+obs|Whitehorse|2024-05
+obs|Whitehorse|2024-06
+obs|Whitehorse|2024-07
+obs|Whitehorse|2024-08
+obs|Whitehorse|2024-09
+obs|Whitehorse|2024-10
+obs|Whitehorse|2024-11
+obs|Whitehorse|2024-12
+obs|Whitehorse|2025-01
+obs|Whitehorse|2025-02
+obs|Whitehorse|2025-03
+obs|Whitehorse|2025-04
+obs|Whitehorse|2025-05
+obs|Whitehorse|2025-06
+obs|Whitehorse|2025-07
+obs|Whitehorse|2025-08
+obs|Whitehorse|2025-09
+obs|Whitehorse|2025-10
+obs|Whitehorse|2025-11
+obs|Whitehorse|2025-12
+obs|Whitehorse|2026-01
+obs|Whitehorse|2026-02
+obs|Whitehorse|2026-03
+obs|Whitehorse|2026-04
+obs|Whitehorse|2026-05
+obs|Whitehorse|2026-06
+obs|Whitehorse|2026-07
+obs|Yellowknife|2024-01
+obs|Yellowknife|2024-02
+obs|Yellowknife|2024-03
+obs|Yellowknife|2024-04
+obs|Yellowknife|2024-05
+obs|Yellowknife|2024-06
+obs|Yellowknife|2024-07
+obs|Yellowknife|2024-08
+obs|Yellowknife|2024-09
+obs|Yellowknife|2024-10
+obs|Yellowknife|2024-11
+obs|Yellowknife|2024-12
+obs|Yellowknife|2025-01
+obs|Yellowknife|2025-02
+obs|Yellowknife|2025-03
+obs|Yellowknife|2025-04
+obs|Yellowknife|2025-05
+obs|Yellowknife|2025-06
+obs|Yellowknife|2025-07
+obs|Yellowknife|2025-08
+obs|Yellowknife|2025-09
+obs|Yellowknife|2025-10
+obs|Yellowknife|2025-11
+obs|Yellowknife|2025-12
+obs|Yellowknife|2026-01
+obs|Yellowknife|2026-02
+obs|Yellowknife|2026-03
+obs|Yellowknife|2026-04
+obs|Yellowknife|2026-05
+obs|Yellowknife|2026-06
+obs|Yellowknife|2026-07
+obs|Iqaluit|2024-01
+obs|Iqaluit|2024-02
+obs|Iqaluit|2024-03
+obs|Iqaluit|2024-04
+obs|Iqaluit|2024-05
+obs|Iqaluit|2024-06
+obs|Iqaluit|2024-07
+obs|Iqaluit|2024-08
+obs|Iqaluit|2024-09
+obs|Iqaluit|2024-10
+obs|Iqaluit|2024-11
+obs|Iqaluit|2024-12
+obs|Iqaluit|2025-01
+obs|Iqaluit|2025-02
+obs|Iqaluit|2025-03
+obs|Iqaluit|2025-04
+obs|Iqaluit|2025-05
+obs|Iqaluit|2025-06
+obs|Iqaluit|2025-07
+obs|Iqaluit|2025-08
+obs|Iqaluit|2025-09
+obs|Iqaluit|2025-10
+obs|Iqaluit|2025-11
+obs|Iqaluit|2025-12
+obs|Iqaluit|2026-01
+obs|Iqaluit|2026-02
+obs|Iqaluit|2026-03
+obs|Iqaluit|2026-04
+obs|Iqaluit|2026-05
+obs|Iqaluit|2026-06
+obs|Iqaluit|2026-07
