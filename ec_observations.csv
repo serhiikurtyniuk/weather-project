@@ -136,3 +136,30 @@ date,city,province,temp_max_actual,temp_min_actual,precip_actual
 2026-08-01,Whitehorse,YT,21.7,6.7,0
 2026-08-01,Yellowknife,NT,21.6,12.9,0
 2026-08-01,Iqaluit,NU,15.8,4.5,0.6
+2026-08-02,Winnipeg,MB,32.1,18.4,0
+2026-08-02,Brandon,MB,31.3,14.9,0
+2026-08-02,Thompson,MB,27.9,15.4,0
+2026-08-02,Portage la Prairie,MB,32.1,17.6,0
+2026-08-02,Steinbach,MB,31.2,18.1,0
+2026-08-02,Regina,SK,27.8,11,0
+2026-08-02,Saskatoon,SK,24.1,11.8,0
+2026-08-02,Calgary,AB,21.5,8.1,0
+2026-08-02,Edmonton,AB,19.4,10.1,20.5
+2026-08-02,Vancouver,BC,20.9,13.6,7.8
+2026-08-02,Victoria,BC,20.3,11.8,0
+2026-08-02,Kelowna,BC,22.9,14.2,0
+2026-08-02,Toronto,ON,23,16.8,29.4
+2026-08-02,Ottawa,ON,23.3,19.5,30
+2026-08-02,Hamilton,ON,21.5,17.7,39.5
+2026-08-02,London,ON,21,16,33.9
+2026-08-02,Montreal,QC,27.3,20.8,9.4
+2026-08-02,Quebec City,QC,29.6,20,18.2
+2026-08-02,Gatineau,QC,23.3,19.5,30
+2026-08-02,Halifax,NS,26.4,16.8,0
+2026-08-02,Fredericton,NB,28.8,16.2,0
+2026-08-02,Moncton,NB,28.6,14.8,0
+2026-08-02,Charlottetown,PE,25.9,13.6,0
+2026-08-02,St. John's,NL,18.4,12.2,0
+2026-08-02,Whitehorse,YT,25,8,0
+2026-08-02,Yellowknife,NT,17.7,9.7,0
+2026-08-02,Iqaluit,NU,18.5,6.9,0
