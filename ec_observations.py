@@ -5,8 +5,10 @@ import time
 import sys
 from datetime import date, timedelta
 
-url = "https://api.weather.gc.ca/collections/climate-daily/items"
+DAILY_URL = "https://api.weather.gc.ca/collections/climate-daily/items"
+HOURLY_URL = "https://api.weather.gc.ca/collections/climate-hourly/items"
 
+# station_id_wind only set where it differs from the temp/precip station
 ec_obs_cities = [
     {"name": "Winnipeg", "province": "MB", "station_id": "5023262"},
     {"name": "Brandon", "province": "MB", "station_id": "5010490"},
@@ -17,13 +19,13 @@ ec_obs_cities = [
     {"name": "Saskatoon", "province": "SK", "station_id": "4057165"},
     {"name": "Calgary", "province": "AB", "station_id": "3031094"},
     {"name": "Edmonton", "province": "AB", "station_id": "3012209"},
-    {"name": "Vancouver", "province": "BC", "station_id": "1108446"},
+    {"name": "Vancouver", "province": "BC", "station_id": "1108446", "station_id_wind": "1108824"},
     {"name": "Victoria", "province": "BC", "station_id": "1018611"},
-    {"name": "Kelowna", "province": "BC", "station_id": "1123996"},
-    {"name": "Toronto", "province": "ON", "station_id": "6158355"},
+    {"name": "Kelowna", "province": "BC", "station_id": "1123996", "station_id_wind": "1123939"},
+    {"name": "Toronto", "province": "ON", "station_id": "6158355", "station_id_wind": "6158359"},
     {"name": "Ottawa", "province": "ON", "station_id": "6105978"},
     {"name": "Hamilton", "province": "ON", "station_id": "6153301"},
-    {"name": "London", "province": "ON", "station_id": "6144478"},
+    {"name": "London", "province": "ON", "station_id": "6144478", "station_id_wind": "6144473"},
     {"name": "Montreal", "province": "QC", "station_id": "7024745"},
     {"name": "Quebec City", "province": "QC", "station_id": "7010565"},
     {"name": "Gatineau", "province": "QC", "station_id": "6105978"},
@@ -55,7 +57,7 @@ def fetch_with_fallback(station_id, city_name, existing_keys, max_days_back=6):
         props = None
         for attempt in range(3):
             try:
-                response = requests.get(url, params=params, timeout=30)
+                response = requests.get(DAILY_URL, params=params, timeout=30)
                 response.raise_for_status()
                 data = response.json()
                 features = data.get("features", [])
@@ -70,6 +72,32 @@ def fetch_with_fallback(station_id, city_name, existing_keys, max_days_back=6):
             return check_date, props, "new"
 
     return None, None, "no_data"
+
+
+def fetch_wind_max(station_id, target_date):
+    params = {
+        "f": "json",
+        "CLIMATE_IDENTIFIER": station_id,
+        "datetime": f"{target_date}T00:00:00/{target_date}T23:00:00",
+        "limit": 30
+    }
+
+    for attempt in range(3):
+        try:
+            response = requests.get(HOURLY_URL, params=params, timeout=30)
+            response.raise_for_status()
+            data = response.json()
+            feats = data.get("features", [])
+            speeds = [f["properties"].get("WIND_SPEED") for f in feats]
+            speeds = [s for s in speeds if s is not None]
+            if speeds:
+                return max(speeds)
+            return None
+        except requests.exceptions.RequestException as e:
+            print(f"    wind fetch error: {e}")
+            time.sleep(2)
+
+    return None
 
 
 file_exists = os.path.isfile("ec_observations.csv")
@@ -87,7 +115,7 @@ with open("ec_observations.csv", "a", newline="") as f:
     writer = csv.writer(f)
 
     if not file_exists:
-        writer.writerow(["date", "city", "province", "temp_max_actual", "temp_min_actual", "precip_actual"])
+        writer.writerow(["date", "city", "province", "temp_max_actual", "temp_min_actual", "precip_actual", "wind_speed_actual"])
 
     for city in ec_obs_cities:
         found_date, props, status = fetch_with_fallback(city["station_id"], city["name"], existing_keys)
@@ -105,8 +133,11 @@ with open("ec_observations.csv", "a", newline="") as f:
         actual_low = props.get("MIN_TEMPERATURE")
         actual_precip = props.get("TOTAL_PRECIPITATION")
 
-        writer.writerow([found_date, city["name"], city["province"], actual_high, actual_low, actual_precip])
-        print(f"{city['name']}: {found_date}")
+        wind_station = city.get("station_id_wind", city["station_id"])
+        actual_wind = fetch_wind_max(wind_station, found_date)
+
+        writer.writerow([found_date, city["name"], city["province"], actual_high, actual_low, actual_precip, actual_wind])
+        print(f"{city['name']}: {found_date} (wind: {actual_wind})")
 
         time.sleep(0.5)
 

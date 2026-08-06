@@ -1,0 +1,83 @@
+---
+title: "analysis"
+output: pdf_document
+---
+### Install Packages
+```{r}
+install.packages(c("DBI", "RSQLite", "dplyr", "tidyr", "ggplot2"))
+```
+
+### Update Data
+```{r}
+system("git pull")
+system("python migrate_to_sqlite.py")
+```
+
+### Loading Data
+```{r}
+library(DBI)
+library(RSQLite)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+con <- dbConnect(SQLite(), "weather.db")
+forecasts <- dbGetQuery(con, "SELECT * FROM forecasts")
+observations <- dbGetQuery(con, "SELECT * FROM observations")
+dbDisconnect(con)
+
+cat("Forecast rows:", nrow(forecasts), "\n")
+cat("Observation rows:", nrow(observations), "\n") 
+```
+###
+
+```{r}
+forecasts <- forecasts %>%
+  mutate(target_date = as.Date(target_date))
+
+observations <- observations %>%
+  mutate(date = as.Date(date))
+
+forecasts %>%
+  group_by(source) %>%
+  summarise(
+    min_horizon = min(horizon, na.rm = TRUE),
+    max_horizon = max(horizon, na.rm = TRUE),
+    n = n()
+  )
+
+```
+
+###
+
+```{r}
+score_live <- function(obs_source_name) {
+  obs_filtered <- observations %>%
+    filter(source %in% c("open-meteo", "ec")) %>%
+    filter(source == obs_source_name) %>%
+    select(city, province, date, temp_max_actual, temp_min_actual)
+
+  forecasts %>%
+    filter(source %in% c("open-meteo", "ec")) %>%
+    inner_join(obs_filtered, by = c("city", "province", "target_date" = "date")) %>%
+    mutate(obs_source = obs_source_name)
+}
+
+temp_scored_live <- bind_rows(
+  score_live("open-meteo"),
+  score_live("ec")
+)
+
+temp_scored_backfill <- forecasts %>%
+  filter(source == "open-meteo-backfill") %>%
+  inner_join(
+    observations %>% filter(source == "open-meteo-backfill") %>%
+      select(city, province, date, temp_max_actual, temp_min_actual),
+    by = c("city", "province", "target_date" = "date")
+  ) %>%
+  mutate(obs_source = "open-meteo-backfill")
+
+cat("Live matched rows:", nrow(temp_scored_live), "\n")
+cat("Backfill matched rows:", nrow(temp_scored_backfill), "\n")
+```
+
