@@ -72,7 +72,6 @@ def load_forecasts_csv(filepath, source_name):
                 float(row["wind_speed_max"]) if row.get("wind_speed_max") else None
             ))
 
-    # dedupe on (source, issued_at, city, province, target_date, horizon)
     rows, dropped = dedupe(rows, key_indices=[0, 1, 2, 3, 4, 5])
     if dropped:
         print(f"  Dropped {dropped} duplicate row(s) from {filepath}")
@@ -101,7 +100,64 @@ def load_observations_csv(filepath, source_name):
                 float(row["wind_speed_actual"]) if row.get("wind_speed_actual") else None
             ))
 
-    # dedupe on (source, date, city, province)
+    rows, dropped = dedupe(rows, key_indices=[0, 1, 2, 3])
+    if dropped:
+        print(f"  Dropped {dropped} duplicate row(s) from {filepath}")
+
+    cursor.executemany("""
+        INSERT INTO observations (source, date, city, province, temp_max_actual, temp_min_actual, precip_actual, wind_speed_actual)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    """, rows)
+    conn.commit()
+    print(f"Loaded {len(rows)} rows from {filepath} as source '{source_name}'")
+
+
+def load_backfill_forecasts(filepath, source_name):
+    with open(filepath, newline="") as f:
+        reader = csv.DictReader(f)
+        rows = []
+        for row in reader:
+            rows.append((
+                source_name,
+                "",
+                row["city"],
+                row["province"],
+                row["target_date"],
+                int(row["horizon"]),
+                float(row["temp_max"]) if row["temp_max"] else None,
+                float(row["temp_min"]) if row["temp_min"] else None,
+                None,
+                float(row["wind_speed_max"]) if row["wind_speed_max"] else None
+            ))
+
+    rows, dropped = dedupe(rows, key_indices=[0, 1, 2, 3, 4, 5])
+    if dropped:
+        print(f"  Dropped {dropped} duplicate row(s) from {filepath}")
+
+    cursor.executemany("""
+        INSERT INTO forecasts (source, issued_at, city, province, target_date, horizon, temp_max, temp_min, precip_prob, wind_speed_max)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    """, rows)
+    conn.commit()
+    print(f"Loaded {len(rows)} rows from {filepath} as source '{source_name}'")
+
+
+def load_backfill_observations(filepath, source_name):
+    with open(filepath, newline="") as f:
+        reader = csv.DictReader(f)
+        rows = []
+        for row in reader:
+            rows.append((
+                source_name,
+                row["date"],
+                row["city"],
+                row["province"],
+                float(row["temp_max_actual"]) if row["temp_max_actual"] else None,
+                float(row["temp_min_actual"]) if row["temp_min_actual"] else None,
+                None,
+                float(row["wind_speed_actual"]) if row["wind_speed_actual"] else None
+            ))
+
     rows, dropped = dedupe(rows, key_indices=[0, 1, 2, 3])
     if dropped:
         print(f"  Dropped {dropped} duplicate row(s) from {filepath}")
@@ -118,7 +174,13 @@ load_forecasts_csv("forecasts.csv", "open-meteo")
 load_forecasts_csv("ec_forecasts.csv", "ec")
 load_observations_csv("observations.csv", "open-meteo")
 load_observations_csv("ec_observations.csv", "ec")
+load_backfill_forecasts("backfill_forecasts.csv", "open-meteo-backfill")
+load_backfill_observations("backfill_observations.csv", "open-meteo-backfill")
 
+cursor.execute("CREATE INDEX idx_fc ON forecasts(city, target_date, source)")
+cursor.execute("CREATE INDEX idx_obs ON observations(city, date, source)")
+conn.commit()
+print("\nIndexes created.")
 
 cursor.execute("""
     SELECT source, COUNT(*) as row_count
