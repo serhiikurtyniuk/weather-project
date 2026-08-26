@@ -720,3 +720,29 @@ date,city,province,temp_max_actual,temp_min_actual,precip_actual,wind_speed_actu
 2026-08-23,Whitehorse,YT,15.1,2.2,0,11
 2026-08-23,Yellowknife,NT,24.3,14.5,0,26
 2026-08-23,Iqaluit,NU,14.1,4.1,0,10
+2026-08-24,Winnipeg,MB,26.5,15,10.9,6
+2026-08-24,Brandon,MB,27.7,15.9,6.8,24
+2026-08-24,Thompson,MB,25.1,15.8,0,23
+2026-08-24,Portage la Prairie,MB,27.4,15.8,0,19
+2026-08-24,Steinbach,MB,25.9,16.3,4.9,22
+2026-08-24,Regina,SK,26,12.1,0.2,40
+2026-08-24,Saskatoon,SK,21.2,13.4,4.5,33
+2026-08-24,Calgary,AB,22.8,12.5,0,31
+2026-08-24,Edmonton,AB,24,14.7,0,16
+2026-08-24,Vancouver,BC,23,14.2,0,4
+2026-08-24,Victoria,BC,25.3,11.9,0.2,15
+2026-08-24,Kelowna,BC,29.4,10.9,0,39
+2026-08-24,Toronto,ON,22.3,14.9,0.5,30
+2026-08-24,Ottawa,ON,21.1,14.1,0.1,20
+2026-08-24,Hamilton,ON,22,13.3,0,15
+2026-08-24,London,ON,18,12.8,1,23
+2026-08-24,Montreal,QC,22.1,15.4,2.5,9
+2026-08-24,Quebec City,QC,25.3,12.7,0.6,14
+2026-08-24,Gatineau,QC,21.1,14.1,0.1,20
+2026-08-24,Halifax,NS,24.5,19.8,18.8,13
+2026-08-24,Fredericton,NB,26.6,15.2,0,18
+2026-08-24,Moncton,NB,28.8,16.6,0.6,38
+2026-08-24,St. John's,NL,23.1,15.1,0,33
+2026-08-24,Whitehorse,YT,13.9,8.3,0,10
+2026-08-24,Yellowknife,NT,15.1,11.4,0,28
+2026-08-24,Iqaluit,NU,10.3,4,0.9,21
