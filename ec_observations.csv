@@ -931,3 +931,30 @@ date,city,province,temp_max_actual,temp_min_actual,precip_actual,wind_speed_actu
 2026-09-01,Whitehorse,YT,13.7,3.3,0.3,13
 2026-09-01,Yellowknife,NT,20.8,10.4,0,32
 2026-09-01,Iqaluit,NU,15.7,5.9,0,23
+2026-09-02,Winnipeg,MB,24.5,15.7,0,5
+2026-09-02,Brandon,MB,24.5,10.5,0,17
+2026-09-02,Thompson,MB,20,13.1,0.3,20
+2026-09-02,Portage la Prairie,MB,24.4,13,0,9
+2026-09-02,Steinbach,MB,25.8,10.7,0,9
+2026-09-02,Regina,SK,28.8,12.2,0,33
+2026-09-02,Saskatoon,SK,26.2,12.7,8.8,32
+2026-09-02,Calgary,AB,23.7,10.3,0,23
+2026-09-02,Edmonton,AB,26.3,14.6,0,11
+2026-09-02,Vancouver,BC,19.3,14.7,13.7,8
+2026-09-02,Victoria,BC,17.2,11.4,0,35
+2026-09-02,Kelowna,BC,23.6,12.7,2.3,15
+2026-09-02,Toronto,ON,25.7,19.8,59.5,26
+2026-09-02,Ottawa,ON,24.9,16.2,10.3,13
+2026-09-02,Hamilton,ON,30.5,19.9,2.5,10
+2026-09-02,London,ON,29.5,19.5,32.1,35
+2026-09-02,Montreal,QC,24.2,15.1,9.8,12
+2026-09-02,Quebec City,QC,20.4,14.6,15.4,23
+2026-09-02,Gatineau,QC,24.9,16.2,10.3,13
+2026-09-02,Halifax,NS,21.1,13.4,0,14
+2026-09-02,Fredericton,NB,22,9.7,0,12
+2026-09-02,Moncton,NB,20.9,9.6,0,18
+2026-09-02,Charlottetown,PE,20,7.6,0,20
+2026-09-02,St. John's,NL,13.4,5.7,0,22
+2026-09-02,Whitehorse,YT,13.8,5.7,0.3,11
+2026-09-02,Yellowknife,NT,22.4,11.8,0,21
+2026-09-02,Iqaluit,NU,15,5.7,0,26
