@@ -1347,3 +1347,27 @@ date,city,province,temp_max_actual,temp_min_actual,precip_actual,wind_speed_actu
 2026-09-17,Whitehorse,YT,14.4,0.1,0,7
 2026-09-17,Yellowknife,NT,10.4,3.9,2.2,27
 2026-09-17,Iqaluit,NU,4.7,,1.9,17
+2026-09-18,Winnipeg,MB,18.5,6.7,2.4,7
+2026-09-18,Thompson,MB,19.7,6.9,0.6,20
+2026-09-18,Portage la Prairie,MB,19.8,4.9,4.9,17
+2026-09-18,Steinbach,MB,20.5,7.4,0,13
+2026-09-18,Regina,SK,21.9,9.5,0,22
+2026-09-18,Saskatoon,SK,24.8,4.9,0,19
+2026-09-18,Calgary,AB,21.8,3,0,15
+2026-09-18,Edmonton,AB,22.5,6.3,0,7
+2026-09-18,Vancouver,BC,20.9,11.5,0,4
+2026-09-18,Victoria,BC,17,11.1,0,22
+2026-09-18,Kelowna,BC,26.1,7,0,15
+2026-09-18,Toronto,ON,22.2,14.1,0,21
+2026-09-18,Hamilton,ON,22.6,10.3,0.4,10
+2026-09-18,London,ON,22.4,12.1,0,17
+2026-09-18,Montreal,QC,19.5,10.4,0,13
+2026-09-18,Quebec City,QC,18.4,8.2,0,19
+2026-09-18,Halifax,NS,20.1,11.1,6.2,13
+2026-09-18,Fredericton,NB,21.8,9.6,0.4,23
+2026-09-18,Moncton,NB,21,8.2,2.7,32
+2026-09-18,Charlottetown,PE,19.4,9.9,12,24
+2026-09-18,St. John's,NL,13.5,10,3.8,24
+2026-09-18,Whitehorse,YT,10.5,2.8,0,16
+2026-09-18,Yellowknife,NT,13.5,1.4,1.4,13
+2026-09-18,Iqaluit,NU,5.7,,0,37
