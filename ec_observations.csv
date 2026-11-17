@@ -2841,3 +2841,30 @@ date,city,province,temp_max_actual,temp_min_actual,precip_actual,wind_speed_actu
 2026-11-14,Whitehorse,YT,1.5,-3.1,3.7,10
 2026-11-14,Yellowknife,NT,-0.2,-1.1,0.6,29
 2026-11-14,Iqaluit,NU,-1.1,-12.5,0.9,9
+2026-11-15,Winnipeg,MB,9.7,1.5,0,12
+2026-11-15,Brandon,MB,10.1,-1.6,0,24
+2026-11-15,Thompson,MB,5,-6.4,0,18
+2026-11-15,Portage la Prairie,MB,11.6,-0.4,0,21
+2026-11-15,Steinbach,MB,10.7,-0.4,0,25
+2026-11-15,Regina,SK,13.6,-2.2,0,27
+2026-11-15,Saskatoon,SK,12.6,0.7,0,29
+2026-11-15,Calgary,AB,14.2,-2.2,0,17
+2026-11-15,Edmonton,AB,9.4,-2.4,0,10
+2026-11-15,Vancouver,BC,14.1,8.4,6.6,9
+2026-11-15,Victoria,BC,13.1,7.4,0.4,46
+2026-11-15,Kelowna,BC,13,5.6,2.3,32
+2026-11-15,Toronto,ON,8.8,2.1,0,30
+2026-11-15,Ottawa,ON,8.4,2,0,21
+2026-11-15,Hamilton,ON,9.8,-0.1,,12
+2026-11-15,London,ON,6.8,1.5,0,24
+2026-11-15,Montreal,QC,7.7,2.7,0,10
+2026-11-15,Quebec City,QC,8.5,0.8,0,15
+2026-11-15,Gatineau,QC,8.4,2,0,21
+2026-11-15,Halifax,NS,7.4,1.5,0.6,12
+2026-11-15,Fredericton,NB,7.3,0.9,0,16
+2026-11-15,Moncton,NB,5.5,-1.3,0,20
+2026-11-15,Charlottetown,PE,4.8,1.8,6.5,20
+2026-11-15,St. John's,NL,4.1,1.1,6.4,33
+2026-11-15,Whitehorse,YT,2.5,-2.1,0,12
+2026-11-15,Yellowknife,NT,0,-1.8,2.4,19
+2026-11-15,Iqaluit,NU,-2.7,-8.8,0,40
